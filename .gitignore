@@ -1,0 +1,31 @@
+# Ignorar arquivos de configuração de ambiente
+**/*.env
+
+# Ignorar arquivos appsettings.json padrão e específicos de ambiente
+**/appsettings.json
+**/appsettings.*.json
+
+# Ignorar arquivos de build e output
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Ignorar arquivos e pastas gerados pelo Visual Studio
+.vs/
+*.user
+*.userosscache
+*.suo
+
+# Ignorar artefatos do NuGet
+packages/
+!**/packages/build/
+*.nupkg
+*.snupkg
+
+# Ignorar arquivos de projeto e solução de backup
+*.[Bb]ak
+*.[Tt]mp
+*.[Oo]ld
+*.[Aa]ux
+*.[Cc]ache
+*.[Rr]es

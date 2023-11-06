@@ -1,0 +1,115 @@
+2023-10-29 20:11:33.109 -03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-10-29 20:11:33.288 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-29 20:11:33.893 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-29 20:11:33.895 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-29 20:11:33.899 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-29 20:11:33.901 -03:00 [INF] Hosting environment: Development
+2023-10-29 20:11:33.903 -03:00 [INF] Content root path: C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AdminAPI
+2023-10-29 20:11:35.211 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger - -
+2023-10-29 20:11:35.396 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger - - - 301 0 - 190.1200ms
+2023-10-29 20:11:35.484 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-29 20:11:36.157 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 672.2880ms
+2023-10-29 20:11:36.173 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/swagger-ui-standalone-preset.js - -
+2023-10-29 20:11:36.173 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/swagger-ui.css - -
+2023-10-29 20:11:36.189 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/swagger-ui-bundle.js - -
+2023-10-29 20:11:36.214 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-29 20:11:36.302 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 88.2359ms
+2023-10-29 20:11:36.468 -03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-10-29 20:11:36.468 -03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-10-29 20:11:36.468 -03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-10-29 20:11:36.487 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 313.9933ms
+2023-10-29 20:11:36.479 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 290.0346ms
+2023-10-29 20:11:36.541 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/swagger-ui.css - - - 200 144929 text/css 368.2972ms
+2023-10-29 20:11:36.540 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-29 20:11:37.862 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 1321.4537ms
+2023-10-29 20:11:38.246 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-29 20:11:38.257 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/favicon-32x32.png - -
+2023-10-29 20:11:38.357 -03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-29 20:11:38.359 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/favicon-32x32.png - - - 200 628 image/png 101.6630ms
+2023-10-29 20:11:38.420 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 173.7364ms
+2023-10-29 23:12:33.388 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-29 23:12:33.678 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-29 23:12:33.679 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-29 23:12:33.681 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-29 23:12:33.682 -03:00 [INF] Hosting environment: Development
+2023-10-29 23:12:33.683 -03:00 [INF] Content root path: C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AdminAPI
+2023-10-29 23:12:35.092 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-29 23:12:35.592 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 498.5406ms
+2023-10-29 23:12:35.602 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-29 23:12:35.615 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 13.6242ms
+2023-10-29 23:12:35.665 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-29 23:12:35.791 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 125.5418ms
+2023-10-29 23:12:36.049 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-29 23:12:36.395 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 348.0170ms
+2023-10-29 23:14:20.495 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/Register application/json 109
+2023-10-29 23:14:21.830 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI)'
+2023-10-29 23:14:21.864 -03:00 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(AutoMapper.IMapper, Microsoft.Extensions.Configuration.IConfiguration, JiuJitsuMaster.Core.Interfaces.Services.IUserService, JiuJitsuMaster.AdminAPI.Models.RegisterRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-29 23:14:22.831 -03:00 [ERR] Uma exceção ocorreu durante a tentativa de Registro
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.Int64.Parse(String s)
+   at JiuJitsuMaster.AdminAPI.Controllers.UserController.Register(IMapper mapper, IConfiguration configuration, IUserService userService, RegisterRequestModel request, CancellationToken cancellationToken) in C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AdminAPI\Controllers\UserController.cs:line 42
+2023-10-29 23:14:22.944 -03:00 [INF] Executing ObjectResult, writing value of type 'CommonUtility.Model.BaseModel`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-29 23:14:22.954 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI) in 1085.6263ms
+2023-10-29 23:14:22.958 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI)'
+2023-10-29 23:14:22.962 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7085/User/Register application/json 109 - 500 - application/json;+charset=utf-8 2466.9002ms
+2023-10-29 23:15:15.533 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/Register application/json 109
+2023-10-29 23:15:15.562 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI)'
+2023-10-29 23:15:15.565 -03:00 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(AutoMapper.IMapper, Microsoft.Extensions.Configuration.IConfiguration, JiuJitsuMaster.Core.Interfaces.Services.IUserService, JiuJitsuMaster.AdminAPI.Models.RegisterRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-29 23:15:35.145 -03:00 [ERR] Uma exceção ocorreu durante a tentativa de Registro
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.Int64.Parse(String s)
+   at JiuJitsuMaster.AdminAPI.Controllers.UserController.Register(IMapper mapper, IConfiguration configuration, IUserService userService, RegisterRequestModel request, CancellationToken cancellationToken) in C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AdminAPI\Controllers\UserController.cs:line 42
+2023-10-29 23:15:35.147 -03:00 [INF] Executing ObjectResult, writing value of type 'CommonUtility.Model.BaseModel`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-29 23:15:35.148 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI) in 19582.029ms
+2023-10-29 23:15:35.149 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI)'
+2023-10-29 23:15:35.151 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7085/User/Register application/json 109 - 500 - application/json;+charset=utf-8 19617.1274ms
+2023-10-29 23:17:18.695 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-29 23:17:19.313 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-29 23:17:19.314 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-29 23:17:19.316 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-29 23:17:19.316 -03:00 [INF] Hosting environment: Development
+2023-10-29 23:17:19.317 -03:00 [INF] Content root path: C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AdminAPI
+2023-10-29 23:17:20.819 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-29 23:17:21.389 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 571.1340ms
+2023-10-29 23:17:21.404 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-29 23:17:21.418 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 13.8936ms
+2023-10-29 23:17:21.945 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-29 23:17:22.043 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 98.5241ms
+2023-10-29 23:17:22.606 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-29 23:17:23.029 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 422.4539ms
+2023-10-29 23:20:30.243 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/Register application/json 109
+2023-10-29 23:20:30.338 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI)'
+2023-10-29 23:20:30.372 -03:00 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IUserService, JiuJitsuMaster.AdminAPI.Models.RegisterRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-29 23:21:38.987 -03:00 [ERR] Erro interno durante o convite
+2023-10-29 23:21:40.904 -03:00 [INF] Executing ObjectResult, writing value of type 'CommonUtility.Model.BaseModel`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-29 23:21:45.645 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI) in 75261.7763ms
+2023-10-29 23:21:45.649 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI)'
+2023-10-29 23:21:45.656 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7085/User/Register application/json 109 - 500 - application/json;+charset=utf-8 75413.7678ms
+2023-10-29 23:24:48.752 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-29 23:24:49.077 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-29 23:24:49.078 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-29 23:24:49.080 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-29 23:24:49.081 -03:00 [INF] Hosting environment: Development
+2023-10-29 23:24:49.081 -03:00 [INF] Content root path: C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AdminAPI
+2023-10-29 23:24:52.753 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-29 23:24:54.524 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 1773.7095ms
+2023-10-29 23:24:54.529 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-29 23:24:54.576 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 46.8988ms
+2023-10-29 23:24:54.687 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-29 23:24:54.752 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 64.4754ms
+2023-10-29 23:24:54.885 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-29 23:24:55.276 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 391.5124ms
+2023-10-29 23:25:30.546 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/Register application/json 109
+2023-10-29 23:25:30.641 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI)'
+2023-10-29 23:25:30.683 -03:00 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IUserService, JiuJitsuMaster.AdminAPI.Models.RegisterRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-29 23:26:04.176 -03:00 [INF] Executed DbCommand (265ms) [Parameters=[@p0='?' (DbType = DateTimeOffset), @p1='?' (Size = 80), @p2='?' (Size = 80), @p3='?' (Size = 100), @p4='?' (Size = 255), @p5='?' (DbType = Int32), @p6='?' (DbType = DateTimeOffset)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([CreatedAt], [Email], [Name], [Password], [RefreshToken], [Role], [UpdatedAt])
+OUTPUT INSERTED.[Id], INSERTED.[Deleted]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2023-10-29 23:26:17.560 -03:00 [INF] Usuário registrado com sucesso
+2023-10-29 23:26:20.235 -03:00 [INF] Executing CreatedResult, writing value of type 'CommonUtility.Model.BaseModel`1[[CommonUtility.Model.MessageModel, CommonUtility, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-29 23:26:20.244 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI) in 49555.6359ms
+2023-10-29 23:26:20.246 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI)'
+2023-10-29 23:26:20.254 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7085/User/Register application/json 109 - 201 - application/json;+charset=utf-8 49709.0979ms

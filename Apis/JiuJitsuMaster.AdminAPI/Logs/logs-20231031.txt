@@ -1,0 +1,671 @@
+2023-10-31 01:36:00.870 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-31 01:36:01.007 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-31 01:36:01.008 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-31 01:36:01.010 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-31 01:36:01.010 -03:00 [INF] Hosting environment: Development
+2023-10-31 01:36:01.011 -03:00 [INF] Content root path: C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AdminAPI
+2023-10-31 01:36:02.310 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-31 01:36:02.534 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 224.4759ms
+2023-10-31 01:36:02.584 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 01:36:02.587 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 3.0360ms
+2023-10-31 01:36:02.656 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-31 01:36:02.683 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.4650ms
+2023-10-31 01:36:02.814 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-31 01:36:02.950 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 135.4026ms
+2023-10-31 01:36:39.361 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-31 01:36:42.754 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-31 01:36:42.827 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-31 01:36:42.835 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-31 01:36:42.836 -03:00 [INF] Hosting environment: Development
+2023-10-31 01:36:42.837 -03:00 [INF] Content root path: C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AdminAPI
+2023-10-31 01:37:14.299 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-31 01:37:15.188 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 888.9931ms
+2023-10-31 01:37:32.443 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-31 01:37:32.443 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 01:37:32.461 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 16.5495ms
+2023-10-31 01:37:32.497 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 54.0677ms
+2023-10-31 01:37:32.952 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-31 01:37:33.466 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 514.4333ms
+2023-10-31 01:46:03.026 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-31 01:46:03.784 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-31 01:46:03.785 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-31 01:46:03.787 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-31 01:46:03.788 -03:00 [INF] Hosting environment: Development
+2023-10-31 01:46:03.789 -03:00 [INF] Content root path: C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AdminAPI
+2023-10-31 01:46:09.890 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-31 01:46:13.591 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 3707.6800ms
+2023-10-31 01:46:13.715 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 01:46:13.722 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-31 01:46:13.755 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 39.1085ms
+2023-10-31 01:46:13.841 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 119.9467ms
+2023-10-31 01:46:13.962 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-31 01:46:14.339 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 376.5460ms
+2023-10-31 01:47:49.533 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-31 01:47:49.874 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-31 01:47:49.875 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-31 01:47:49.876 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-31 01:47:49.877 -03:00 [INF] Hosting environment: Development
+2023-10-31 01:47:49.878 -03:00 [INF] Content root path: C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AdminAPI
+2023-10-31 01:47:51.282 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-31 01:47:52.296 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 1002.0378ms
+2023-10-31 01:47:52.334 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 01:47:52.375 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 41.1106ms
+2023-10-31 01:47:52.890 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-31 01:47:53.008 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 117.2214ms
+2023-10-31 01:47:54.027 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-31 01:47:54.338 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 311.1996ms
+2023-10-31 12:12:09.997 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-31 12:12:10.640 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-31 12:12:10.643 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-31 12:12:10.648 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-31 12:12:10.650 -03:00 [INF] Hosting environment: Development
+2023-10-31 12:12:10.652 -03:00 [INF] Content root path: C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AdminAPI
+2023-10-31 12:12:12.808 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-31 12:12:13.737 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 926.8339ms
+2023-10-31 12:12:13.961 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-31 12:12:13.966 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 12:12:14.012 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 45.1542ms
+2023-10-31 12:12:14.070 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 108.4456ms
+2023-10-31 12:12:14.349 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-31 12:12:14.985 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 635.0439ms
+2023-10-31 12:15:44.888 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/RegisterChampionship?Type=Kimono&Phase=Brackets&Status=Active application/json 20175
+2023-10-31 12:15:45.283 -03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Administrator)
+2023-10-31 12:15:45.294 -03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-10-31 12:15:45.297 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7085/User/RegisterChampionship?Type=Kimono&Phase=Brackets&Status=Active application/json 20175 - 401 0 - 409.4351ms
+2023-10-31 12:16:07.421 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/RegisterChampionship?Type=Kimono&Phase=Brackets&Status=Active application/json 20175
+2023-10-31 12:16:07.738 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 12:16:07.842 -03:00 [INF] Route matched with {action = "RegisterChampionship", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterChampionship(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IChampionshipService, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.ChampionshipRequestModel, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.EnumsChampionshipRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-31 12:16:08.350 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'CommonUtility.Model.BaseModel`1[[CommonUtility.Model.MessageModel, CommonUtility, Version=1.5.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-31 12:16:08.364 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI) in 511.6648ms
+2023-10-31 12:16:08.370 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 12:16:08.374 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7085/User/RegisterChampionship?Type=Kimono&Phase=Brackets&Status=Active application/json 20175 - 400 - application/json;+charset=utf-8 953.7594ms
+2023-10-31 12:18:08.700 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/RegisterChampionship?Type=Kimono&Phase=Brackets&Status=Active application/json 20149
+2023-10-31 12:18:08.719 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 12:18:08.723 -03:00 [INF] Route matched with {action = "RegisterChampionship", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterChampionship(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IChampionshipService, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.ChampionshipRequestModel, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.EnumsChampionshipRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-31 12:18:35.078 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-31 12:18:35.553 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-31 12:18:35.556 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-31 12:18:35.560 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-31 12:18:35.562 -03:00 [INF] Hosting environment: Development
+2023-10-31 12:18:35.564 -03:00 [INF] Content root path: C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AdminAPI
+2023-10-31 12:18:37.198 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-31 12:18:37.873 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 679.4265ms
+2023-10-31 12:18:37.950 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-31 12:18:37.950 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 12:18:37.988 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 37.6294ms
+2023-10-31 12:18:38.076 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 125.3458ms
+2023-10-31 12:18:38.258 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-31 12:18:38.843 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 584.5507ms
+2023-10-31 12:19:20.113 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/RegisterChampionship?Type=Kimono&Phase=Brackets&Status=Active application/json 20149
+2023-10-31 12:19:20.498 -03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Administrator)
+2023-10-31 12:19:20.520 -03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-10-31 12:19:20.527 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7085/User/RegisterChampionship?Type=Kimono&Phase=Brackets&Status=Active application/json 20149 - 401 0 - 414.9840ms
+2023-10-31 12:19:50.818 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/RegisterChampionship?Type=Kimono&Phase=Brackets&Status=Active application/json 20149
+2023-10-31 12:19:51.192 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 12:19:51.336 -03:00 [INF] Route matched with {action = "RegisterChampionship", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterChampionship(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IChampionshipService, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.ChampionshipRequestModel, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.EnumsChampionshipRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-31 12:20:46.987 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-31 12:20:47.402 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-31 12:20:47.405 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-31 12:20:47.409 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-31 12:20:47.411 -03:00 [INF] Hosting environment: Development
+2023-10-31 12:20:47.412 -03:00 [INF] Content root path: C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AdminAPI
+2023-10-31 12:20:49.540 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-31 12:20:49.990 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 451.0505ms
+2023-10-31 12:20:49.997 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 12:20:50.011 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 14.4620ms
+2023-10-31 12:20:50.063 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-31 12:20:50.105 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 42.1889ms
+2023-10-31 12:20:50.278 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-31 12:20:50.566 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 288.1937ms
+2023-10-31 12:21:34.875 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/RegisterChampionship?Type=Kimono&Phase=Brackets&Status=Active application/json 20149
+2023-10-31 12:21:35.274 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 12:21:35.377 -03:00 [INF] Route matched with {action = "RegisterChampionship", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterChampionship(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IChampionshipService, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.ChampionshipRequestModel, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.EnumsChampionshipRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-31 12:24:55.628 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-31 12:25:06.225 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-31 12:25:06.228 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-31 12:25:06.234 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-31 12:25:06.236 -03:00 [INF] Hosting environment: Development
+2023-10-31 12:25:06.238 -03:00 [INF] Content root path: C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AdminAPI
+2023-10-31 12:25:14.790 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-31 12:25:16.183 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 1391.8512ms
+2023-10-31 12:25:16.329 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 12:25:16.329 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-31 12:25:16.392 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 62.9077ms
+2023-10-31 12:25:16.580 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 250.6579ms
+2023-10-31 12:25:16.727 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-31 12:25:17.172 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 445.3297ms
+2023-10-31 12:26:01.553 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/RegisterChampionship?Type=Kimono&Phase=Brackets&Status=Active application/json 20148
+2023-10-31 12:26:02.267 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 12:26:02.413 -03:00 [INF] Route matched with {action = "RegisterChampionship", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterChampionship(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IChampionshipService, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.ChampionshipRequestModel, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.EnumsChampionshipRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-31 12:26:52.991 -03:00 [INF] Executed DbCommand (4,326ms) [Parameters=[@__title_0='?' (Size = 100), @__state_1='?' (Size = 50), @__city_2='?' (Size = 50), @__gym_3='?' (Size = 4000), @__eventDate_4='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[AboutEvent], [c].[City], [c].[Code], [c].[CreatedAt], [c].[Deleted], [c].[EventDate], [c].[GeneralInfo], [c].[Gym], [c].[Image], [c].[Phase], [c].[PublicEntry], [c].[State], [c].[Status], [c].[Title], [c].[Type], [c].[UpdatedAt]
+FROM [Championships] AS [c]
+WHERE [c].[Deleted] = CAST(0 AS bit) AND [c].[Title] = @__title_0 AND [c].[State] = @__state_1 AND [c].[City] = @__city_2 AND [c].[Gym] = @__gym_3 AND [c].[EventDate] = @__eventDate_4
+2023-10-31 12:27:12.662 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'CommonUtility.Model.BaseModel`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-31 12:27:12.677 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI) in 70254.7716ms
+2023-10-31 12:27:12.683 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 12:27:12.698 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7085/User/RegisterChampionship?Type=Kimono&Phase=Brackets&Status=Active application/json 20148 - 400 - application/json;+charset=utf-8 71144.5678ms
+2023-10-31 12:35:09.334 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-31 12:35:09.945 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-31 12:35:09.948 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-31 12:35:09.952 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-31 12:35:09.954 -03:00 [INF] Hosting environment: Development
+2023-10-31 12:35:09.955 -03:00 [INF] Content root path: C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AdminAPI
+2023-10-31 12:35:11.439 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-31 12:35:12.372 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 12:35:12.391 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 954.9307ms
+2023-10-31 12:35:12.499 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-31 12:35:12.516 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 143.1690ms
+2023-10-31 12:35:12.732 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 232.6734ms
+2023-10-31 12:35:13.101 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-31 12:35:13.797 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 695.5486ms
+2023-10-31 12:36:31.629 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/RegisterChampionship?Type=Kimono&Phase=Brackets&Status=Active application/json 20148
+2023-10-31 12:36:32.370 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 12:36:32.528 -03:00 [INF] Route matched with {action = "RegisterChampionship", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterChampionship(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IChampionshipService, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.ChampionshipRequestModel, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.EnumsChampionshipRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-31 12:36:52.899 -03:00 [INF] Executed DbCommand (118ms) [Parameters=[@__title_0='?' (Size = 100), @__state_1='?' (Size = 50), @__city_2='?' (Size = 50), @__gym_3='?' (Size = 4000), @__eventDate_4='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[AboutEvent], [c].[City], [c].[Code], [c].[CreatedAt], [c].[Deleted], [c].[EventDate], [c].[GeneralInfo], [c].[Gym], [c].[Image], [c].[Phase], [c].[PublicEntry], [c].[State], [c].[Status], [c].[Title], [c].[Type], [c].[UpdatedAt]
+FROM [Championships] AS [c]
+WHERE [c].[Deleted] = CAST(0 AS bit) AND [c].[Title] = @__title_0 AND [c].[State] = @__state_1 AND [c].[City] = @__city_2 AND [c].[Gym] = @__gym_3 AND [c].[EventDate] = @__eventDate_4
+2023-10-31 12:37:08.701 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'CommonUtility.Model.BaseModel`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-31 12:37:08.717 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI) in 36167.8882ms
+2023-10-31 12:37:08.722 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 12:37:08.736 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7085/User/RegisterChampionship?Type=Kimono&Phase=Brackets&Status=Active application/json 20148 - 400 - application/json;+charset=utf-8 37109.4709ms
+2023-10-31 12:41:35.030 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/RegisterChampionship?Type=Kimono&Phase=Brackets&Status=Active application/json 20148
+2023-10-31 12:41:35.047 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 12:41:35.050 -03:00 [INF] Route matched with {action = "RegisterChampionship", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterChampionship(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IChampionshipService, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.ChampionshipRequestModel, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.EnumsChampionshipRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-31 12:42:57.749 -03:00 [INF] Executed DbCommand (29ms) [Parameters=[@__title_0='?' (Size = 100), @__state_1='?' (Size = 50), @__city_2='?' (Size = 50), @__gym_3='?' (Size = 4000), @__eventDate_4='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[AboutEvent], [c].[City], [c].[Code], [c].[CreatedAt], [c].[Deleted], [c].[EventDate], [c].[GeneralInfo], [c].[Gym], [c].[Image], [c].[Phase], [c].[PublicEntry], [c].[State], [c].[Status], [c].[Title], [c].[Type], [c].[UpdatedAt]
+FROM [Championships] AS [c]
+WHERE [c].[Deleted] = CAST(0 AS bit) AND [c].[Title] = @__title_0 AND [c].[State] = @__state_1 AND [c].[City] = @__city_2 AND [c].[Gym] = @__gym_3 AND [c].[EventDate] = @__eventDate_4
+2023-10-31 12:43:07.563 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'CommonUtility.Model.BaseModel`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-31 12:43:07.566 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI) in 92514.3696ms
+2023-10-31 12:43:07.570 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 12:43:07.573 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7085/User/RegisterChampionship?Type=Kimono&Phase=Brackets&Status=Active application/json 20148 - 400 - application/json;+charset=utf-8 92542.8936ms
+2023-10-31 12:53:58.462 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-31 12:53:59.144 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-31 12:53:59.146 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-31 12:53:59.151 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-31 12:53:59.152 -03:00 [INF] Hosting environment: Development
+2023-10-31 12:53:59.155 -03:00 [INF] Content root path: C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AdminAPI
+2023-10-31 12:54:00.744 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-31 12:54:01.438 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 12:54:01.464 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 722.9613ms
+2023-10-31 12:54:01.469 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 30.4914ms
+2023-10-31 12:54:01.561 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-31 12:54:01.633 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 68.6739ms
+2023-10-31 12:54:01.761 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-31 12:54:02.478 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 717.6050ms
+2023-10-31 12:55:41.436 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/RegisterChampionship?Type=Kimono&Phase=Brackets&Status=Active application/json 20148
+2023-10-31 12:55:42.114 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 12:55:42.243 -03:00 [INF] Route matched with {action = "RegisterChampionship", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterChampionship(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IChampionshipService, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.ChampionshipRequestModel, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.EnumsChampionshipRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-31 12:56:20.094 -03:00 [INF] Executed DbCommand (133ms) [Parameters=[@__title_0='?' (Size = 100), @__state_1='?' (Size = 50), @__city_2='?' (Size = 50), @__gym_3='?' (Size = 4000), @__eventDate_4='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[AboutEvent], [c].[City], [c].[Code], [c].[CreatedAt], [c].[Deleted], [c].[EventDate], [c].[GeneralInfo], [c].[Gym], [c].[Image], [c].[Phase], [c].[PublicEntry], [c].[State], [c].[Status], [c].[Title], [c].[Type], [c].[UpdatedAt]
+FROM [Championships] AS [c]
+WHERE [c].[Deleted] = CAST(0 AS bit) AND [c].[Title] = @__title_0 AND [c].[State] = @__state_1 AND [c].[City] = @__city_2 AND [c].[Gym] = @__gym_3 AND [c].[EventDate] = @__eventDate_4
+2023-10-31 12:56:29.466 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'CommonUtility.Model.BaseModel`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-31 12:56:29.488 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI) in 47220.1589ms
+2023-10-31 12:56:29.494 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 12:56:29.509 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7085/User/RegisterChampionship?Type=Kimono&Phase=Brackets&Status=Active application/json 20148 - 400 - application/json;+charset=utf-8 48073.1086ms
+2023-10-31 12:58:06.428 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/RegisterChampionship?Type=Kimono&Phase=Brackets&Status=Active application/json 20125
+2023-10-31 12:58:06.502 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 12:58:06.510 -03:00 [INF] Route matched with {action = "RegisterChampionship", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterChampionship(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IChampionshipService, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.ChampionshipRequestModel, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.EnumsChampionshipRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-31 12:58:15.879 -03:00 [INF] Executed DbCommand (76ms) [Parameters=[@__title_0='?' (Size = 100), @__state_1='?' (Size = 50), @__city_2='?' (Size = 50), @__gym_3='?' (Size = 4000), @__eventDate_4='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[AboutEvent], [c].[City], [c].[Code], [c].[CreatedAt], [c].[Deleted], [c].[EventDate], [c].[GeneralInfo], [c].[Gym], [c].[Image], [c].[Phase], [c].[PublicEntry], [c].[State], [c].[Status], [c].[Title], [c].[Type], [c].[UpdatedAt]
+FROM [Championships] AS [c]
+WHERE [c].[Deleted] = CAST(0 AS bit) AND [c].[Title] = @__title_0 AND [c].[State] = @__state_1 AND [c].[City] = @__city_2 AND [c].[Gym] = @__gym_3 AND [c].[EventDate] = @__eventDate_4
+2023-10-31 12:58:55.870 -03:00 [INF] Executed DbCommand (258ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 50), @p2='?' (Size = 20), @p3='?' (DbType = DateTimeOffset), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (Size = -1), @p8='?' (DbType = Int32), @p9='?' (Size = 4000), @p10='?' (Size = 50), @p11='?' (DbType = Int32), @p12='?' (Size = 100), @p13='?' (DbType = Int32), @p14='?' (DbType = DateTimeOffset)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Championships] ([AboutEvent], [City], [Code], [CreatedAt], [EventDate], [GeneralInfo], [Gym], [Image], [Phase], [PublicEntry], [State], [Status], [Title], [Type], [UpdatedAt])
+OUTPUT INSERTED.[Id], INSERTED.[Deleted]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+2023-10-31 12:58:55.975 -03:00 [ERR] An exception occurred in the database while saving changes for context type 'JiuJitsuMaster.Infrastructure.Database.Contexts.DatabaseContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated in table 'JiuJitsuMasterDB.dbo.Championships', column 'Image'. Truncated value: '/9j/4AAQSkZJRgABAQAAAQABAAD/wAARCACVAVMDASIAAhEBAxEB/8QBogAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoLEAAC'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:8c6a2d3d-dbb9-4493-98ec-4c90571a71a1
+Error Number:2628,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated in table 'JiuJitsuMasterDB.dbo.Championships', column 'Image'. Truncated value: '/9j/4AAQSkZJRgABAQAAAQABAAD/wAARCACVAVMDASIAAhEBAxEB/8QBogAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoLEAAC'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:8c6a2d3d-dbb9-4493-98ec-4c90571a71a1
+Error Number:2628,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-10-31 15:41:28.996 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-31 15:41:29.416 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-31 15:41:29.418 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-31 15:41:29.420 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-31 15:41:29.421 -03:00 [INF] Hosting environment: Development
+2023-10-31 15:41:29.422 -03:00 [INF] Content root path: C:\Trabalhos\jiu-jitsu_championships_api\Apis\JiuJitsuMaster.AdminAPI
+2023-10-31 15:41:30.885 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-31 15:41:31.351 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 460.2534ms
+2023-10-31 15:41:31.373 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 15:41:31.402 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-31 15:41:31.406 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 33.3538ms
+2023-10-31 15:41:31.528 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 126.2641ms
+2023-10-31 15:41:31.636 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-31 15:41:32.147 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 511.5649ms
+2023-10-31 15:43:09.563 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/RegisterChampionship?Type=Kimono&Phase=Brackets&Status=Active application/json 20125
+2023-10-31 15:43:10.750 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 15:43:10.789 -03:00 [INF] Route matched with {action = "RegisterChampionship", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterChampionship(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IChampionshipService, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.ChampionshipRequestModel, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.EnumsChampionshipRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-31 15:44:31.473 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-31 15:44:31.710 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-31 15:44:31.713 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-31 15:44:31.716 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-31 15:44:31.717 -03:00 [INF] Hosting environment: Development
+2023-10-31 15:44:31.718 -03:00 [INF] Content root path: C:\Trabalhos\jiu-jitsu_championships_api\Apis\JiuJitsuMaster.AdminAPI
+2023-10-31 15:44:32.626 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-31 15:44:32.908 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 15:44:32.921 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 288.8193ms
+2023-10-31 15:44:32.924 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 15.6035ms
+2023-10-31 15:44:32.958 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-31 15:44:32.988 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.2558ms
+2023-10-31 15:44:33.051 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-31 15:44:33.222 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 171.5108ms
+2023-10-31 15:46:06.137 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/RegisterChampionship?Type=Kimono&Phase=Brackets&Status=Active application/json 20125
+2023-10-31 15:46:06.321 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 15:46:06.358 -03:00 [INF] Route matched with {action = "RegisterChampionship", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterChampionship(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IChampionshipService, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.ChampionshipRequestModel, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.EnumsChampionshipRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-31 15:46:29.420 -03:00 [INF] Executed DbCommand (141ms) [Parameters=[@__title_0='?' (Size = 100), @__state_1='?' (Size = 50), @__city_2='?' (Size = 50), @__gym_3='?' (Size = 4000), @__eventDate_4='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[AboutEvent], [c].[City], [c].[Code], [c].[CreatedAt], [c].[Deleted], [c].[EventDate], [c].[GeneralInfo], [c].[Gym], [c].[Image], [c].[Phase], [c].[PublicEntry], [c].[State], [c].[Status], [c].[Title], [c].[Type], [c].[UpdatedAt]
+FROM [Championships] AS [c]
+WHERE [c].[Deleted] = CAST(0 AS bit) AND [c].[Title] = @__title_0 AND [c].[State] = @__state_1 AND [c].[City] = @__city_2 AND [c].[Gym] = @__gym_3 AND [c].[EventDate] = @__eventDate_4
+2023-10-31 15:46:45.880 -03:00 [INF] Executed DbCommand (137ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 50), @p2='?' (Size = 20), @p3='?' (DbType = DateTimeOffset), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (Size = 255), @p8='?' (DbType = Int32), @p9='?' (Size = 4000), @p10='?' (Size = 50), @p11='?' (DbType = Int32), @p12='?' (Size = 100), @p13='?' (DbType = Int32), @p14='?' (DbType = DateTimeOffset)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Championships] ([AboutEvent], [City], [Code], [CreatedAt], [EventDate], [GeneralInfo], [Gym], [Image], [Phase], [PublicEntry], [State], [Status], [Title], [Type], [UpdatedAt])
+OUTPUT INSERTED.[Id], INSERTED.[Deleted]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+2023-10-31 15:46:48.870 -03:00 [INF] Executing CreatedResult, writing value of type 'CommonUtility.Model.BaseModel`1[[CommonUtility.Model.MessageModel, CommonUtility, Version=1.5.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-31 15:46:48.880 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI) in 42516.6429ms
+2023-10-31 15:46:48.883 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 15:46:48.890 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7085/User/RegisterChampionship?Type=Kimono&Phase=Brackets&Status=Active application/json 20125 - 201 - application/json;+charset=utf-8 42753.2071ms
+2023-10-31 16:05:59.928 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-31 16:06:00.232 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-31 16:06:00.234 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-31 16:06:00.237 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-31 16:06:00.238 -03:00 [INF] Hosting environment: Development
+2023-10-31 16:06:00.240 -03:00 [INF] Content root path: C:\Trabalhos\jiu-jitsu_championships_api\Apis\JiuJitsuMaster.AdminAPI
+2023-10-31 16:06:01.598 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-31 16:06:02.044 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 446.5118ms
+2023-10-31 16:06:02.058 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 16:06:02.072 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 13.0989ms
+2023-10-31 16:06:02.126 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-31 16:06:02.204 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 76.6753ms
+2023-10-31 16:06:02.322 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-31 16:06:04.735 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 2420.1805ms
+2023-10-31 16:10:00.456 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/RegisterChampionship?Type=Kimono&Phase=RegistrationOpen&Status=Active application/json 20125
+2023-10-31 16:10:00.719 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 16:10:00.766 -03:00 [INF] Route matched with {action = "RegisterChampionship", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterChampionship(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IChampionshipService, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.ChampionshipRequestModel, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.EnumsChampionshipRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-31 16:10:15.394 -03:00 [INF] Executed DbCommand (66ms) [Parameters=[@__title_0='?' (Size = 100), @__state_1='?' (Size = 50), @__city_2='?' (Size = 50), @__gym_3='?' (Size = 4000), @__eventDate_4='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[AboutEvent], [c].[City], [c].[Code], [c].[CreatedAt], [c].[Deleted], [c].[EventDate], [c].[GeneralInfo], [c].[Gym], [c].[Image], [c].[Phase], [c].[PublicEntry], [c].[State], [c].[Status], [c].[Title], [c].[Type], [c].[UpdatedAt]
+FROM [Championships] AS [c]
+WHERE [c].[Deleted] = CAST(0 AS bit) AND [c].[Title] = @__title_0 AND [c].[State] = @__state_1 AND [c].[City] = @__city_2 AND [c].[Gym] = @__gym_3 AND [c].[EventDate] = @__eventDate_4
+2023-10-31 16:10:28.317 -03:00 [INF] Executed DbCommand (16ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 50), @p2='?' (Size = 20), @p3='?' (DbType = DateTimeOffset), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (Size = 255), @p8='?' (DbType = Int32), @p9='?' (Size = 4000), @p10='?' (Size = 50), @p11='?' (DbType = Int32), @p12='?' (Size = 100), @p13='?' (DbType = Int32), @p14='?' (DbType = DateTimeOffset)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Championships] ([AboutEvent], [City], [Code], [CreatedAt], [EventDate], [GeneralInfo], [Gym], [Image], [Phase], [PublicEntry], [State], [Status], [Title], [Type], [UpdatedAt])
+OUTPUT INSERTED.[Id], INSERTED.[Deleted]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+2023-10-31 16:10:30.271 -03:00 [INF] Executing CreatedResult, writing value of type 'CommonUtility.Model.BaseModel`1[[CommonUtility.Model.MessageModel, CommonUtility, Version=1.5.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-31 16:10:30.283 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI) in 29509.8797ms
+2023-10-31 16:10:30.286 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 16:10:30.293 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7085/User/RegisterChampionship?Type=Kimono&Phase=RegistrationOpen&Status=Active application/json 20125 - 201 - application/json;+charset=utf-8 29837.6438ms
+2023-10-31 16:20:12.700 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-31 16:20:13.020 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-31 16:20:13.022 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-31 16:20:13.024 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-31 16:20:13.026 -03:00 [INF] Hosting environment: Development
+2023-10-31 16:20:13.027 -03:00 [INF] Content root path: C:\Trabalhos\jiu-jitsu_championships_api\Apis\JiuJitsuMaster.AdminAPI
+2023-10-31 16:20:14.673 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-31 16:20:15.076 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 402.0977ms
+2023-10-31 16:20:15.084 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 16:20:15.095 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 10.3698ms
+2023-10-31 16:20:15.131 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-31 16:20:15.201 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 70.4672ms
+2023-10-31 16:20:15.316 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-31 16:20:15.845 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 529.6131ms
+2023-10-31 16:21:35.561 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/RegisterChampionship?Type=Kimono&Phase=Brackets&Status=Active application/json 20125
+2023-10-31 16:21:35.757 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 16:21:35.789 -03:00 [INF] Route matched with {action = "RegisterChampionship", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterChampionship(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IChampionshipService, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.ChampionshipRequestModel, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.EnumsChampionshipRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-31 16:21:53.242 -03:00 [INF] Executed DbCommand (70ms) [Parameters=[@__title_0='?' (Size = 100), @__state_1='?' (Size = 50), @__city_2='?' (Size = 50), @__gym_3='?' (Size = 4000), @__eventDate_4='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[AboutEvent], [c].[City], [c].[Code], [c].[CreatedAt], [c].[Deleted], [c].[EventDate], [c].[GeneralInfo], [c].[Gym], [c].[Image], [c].[Phase], [c].[PublicEntry], [c].[State], [c].[Status], [c].[Title], [c].[Type], [c].[UpdatedAt]
+FROM [Championships] AS [c]
+WHERE [c].[Deleted] = CAST(0 AS bit) AND [c].[Title] = @__title_0 AND [c].[State] = @__state_1 AND [c].[City] = @__city_2 AND [c].[Gym] = @__gym_3 AND [c].[EventDate] = @__eventDate_4
+2023-10-31 16:22:02.351 -03:00 [INF] Executed DbCommand (31ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 50), @p2='?' (Size = 20), @p3='?' (DbType = DateTimeOffset), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (Size = 255), @p8='?' (DbType = Int32), @p9='?' (Size = 4000), @p10='?' (Size = 50), @p11='?' (DbType = Int32), @p12='?' (Size = 100), @p13='?' (DbType = Int32), @p14='?' (DbType = DateTimeOffset)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Championships] ([AboutEvent], [City], [Code], [CreatedAt], [EventDate], [GeneralInfo], [Gym], [Image], [Phase], [PublicEntry], [State], [Status], [Title], [Type], [UpdatedAt])
+OUTPUT INSERTED.[Id], INSERTED.[Deleted]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+2023-10-31 16:22:04.211 -03:00 [INF] Executing CreatedResult, writing value of type 'CommonUtility.Model.BaseModel`1[[CommonUtility.Model.MessageModel, CommonUtility, Version=1.5.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-31 16:22:04.224 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI) in 28428.3987ms
+2023-10-31 16:22:04.227 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 16:22:04.235 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7085/User/RegisterChampionship?Type=Kimono&Phase=Brackets&Status=Active application/json 20125 - 201 - application/json;+charset=utf-8 28673.7918ms
+2023-10-31 17:03:10.503 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-31 17:03:10.866 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-31 17:03:10.874 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-31 17:03:10.886 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-31 17:03:10.887 -03:00 [INF] Hosting environment: Development
+2023-10-31 17:03:10.888 -03:00 [INF] Content root path: C:\Trabalhos\jiu-jitsu_championships_api\Apis\JiuJitsuMaster.AdminAPI
+2023-10-31 17:03:12.015 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-31 17:03:12.542 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 526.7933ms
+2023-10-31 17:03:12.675 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-31 17:03:12.675 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 17:03:12.726 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 50.7801ms
+2023-10-31 17:03:12.782 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 106.6946ms
+2023-10-31 17:03:12.968 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-31 17:03:13.461 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 492.9989ms
+2023-10-31 17:05:28.354 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-31 17:05:28.668 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-31 17:05:28.670 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-31 17:05:28.673 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-31 17:05:28.673 -03:00 [INF] Hosting environment: Development
+2023-10-31 17:05:28.674 -03:00 [INF] Content root path: C:\Trabalhos\jiu-jitsu_championships_api\Apis\JiuJitsuMaster.AdminAPI
+2023-10-31 17:05:29.662 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-31 17:05:30.055 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 392.3719ms
+2023-10-31 17:05:30.070 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 17:05:30.093 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 23.4609ms
+2023-10-31 17:05:30.135 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-31 17:05:30.191 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 55.5512ms
+2023-10-31 17:05:30.293 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-31 17:05:30.516 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 223.8155ms
+2023-10-31 17:06:36.736 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/RegisterChampionship multipart/form-data;+boundary=----WebKitFormBoundaryaJbYGBsNFKFyDLTW 16167
+2023-10-31 17:06:36.831 -03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Administrator)
+2023-10-31 17:06:36.836 -03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-10-31 17:06:36.839 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7085/User/RegisterChampionship multipart/form-data;+boundary=----WebKitFormBoundaryaJbYGBsNFKFyDLTW 16167 - 401 0 - 102.9731ms
+2023-10-31 17:06:53.800 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/RegisterChampionship multipart/form-data;+boundary=----WebKitFormBoundaryvP0OMkcjB8YZwW6q 16167
+2023-10-31 17:06:53.917 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 17:06:53.953 -03:00 [INF] Route matched with {action = "RegisterChampionship", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterChampionship(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IChampionshipService, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.ChampionshipRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-31 17:51:30.775 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-31 17:51:31.116 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-31 17:51:31.117 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-31 17:51:31.120 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-31 17:51:31.120 -03:00 [INF] Hosting environment: Development
+2023-10-31 17:51:31.121 -03:00 [INF] Content root path: C:\Trabalhos\jiu-jitsu_championships_api\Apis\JiuJitsuMaster.AdminAPI
+2023-10-31 17:51:32.413 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-31 17:51:32.918 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 486.2458ms
+2023-10-31 17:51:32.947 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 17:51:32.966 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-31 17:51:32.978 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 30.9381ms
+2023-10-31 17:51:33.181 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 214.7474ms
+2023-10-31 17:51:33.329 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-31 17:51:33.958 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 628.9282ms
+2023-10-31 17:55:08.637 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/RegisterChampionship multipart/form-data;+boundary=----WebKitFormBoundary3BDflk0Cr0zH0Swu 16380
+2023-10-31 17:55:08.936 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 17:55:08.979 -03:00 [INF] Route matched with {action = "RegisterChampionship", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterChampionship(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IChampionshipService, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.ChampionshipRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-31 17:55:22.259 -03:00 [INF] Executed DbCommand (175ms) [Parameters=[@__title_0='?' (Size = 100), @__state_1='?' (Size = 50), @__city_2='?' (Size = 50), @__gym_3='?' (Size = 4000), @__eventDate_4='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[AboutEvent], [c].[City], [c].[Code], [c].[CreatedAt], [c].[Deleted], [c].[EventDate], [c].[GeneralInfo], [c].[Gym], [c].[Image], [c].[Phase], [c].[PublicEntry], [c].[State], [c].[Status], [c].[Title], [c].[Type], [c].[UpdatedAt]
+FROM [Championships] AS [c]
+WHERE [c].[Deleted] = CAST(0 AS bit) AND [c].[Title] = @__title_0 AND [c].[State] = @__state_1 AND [c].[City] = @__city_2 AND [c].[Gym] = @__gym_3 AND [c].[EventDate] = @__eventDate_4
+2023-10-31 17:55:30.724 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'CommonUtility.Model.BaseModel`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-31 17:55:30.736 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI) in 21750.6953ms
+2023-10-31 17:55:30.740 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 17:55:30.751 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7085/User/RegisterChampionship multipart/form-data;+boundary=----WebKitFormBoundary3BDflk0Cr0zH0Swu 16380 - 400 - application/json;+charset=utf-8 22113.5192ms
+2023-10-31 17:56:55.543 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-31 17:56:56.509 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-31 17:56:56.517 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-31 17:56:56.526 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-31 17:56:56.530 -03:00 [INF] Hosting environment: Development
+2023-10-31 17:56:56.534 -03:00 [INF] Content root path: C:\Trabalhos\jiu-jitsu_championships_api\Apis\JiuJitsuMaster.AdminAPI
+2023-10-31 17:56:57.905 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-31 17:56:58.633 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 730.1654ms
+2023-10-31 17:56:58.787 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 17:56:58.788 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-31 17:56:59.094 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 306.6724ms
+2023-10-31 17:56:59.250 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 462.0296ms
+2023-10-31 17:56:59.379 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-31 17:56:59.765 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 385.2939ms
+2023-10-31 17:58:38.385 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/RegisterChampionship multipart/form-data;+boundary=----WebKitFormBoundaryGYl4WrOgG6G0OAy9 16380
+2023-10-31 17:58:38.727 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 17:58:38.785 -03:00 [INF] Route matched with {action = "RegisterChampionship", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterChampionship(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IChampionshipService, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.ChampionshipRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-31 17:58:55.282 -03:00 [INF] Executed DbCommand (117ms) [Parameters=[@__title_0='?' (Size = 100), @__state_1='?' (Size = 50), @__city_2='?' (Size = 50), @__gym_3='?' (Size = 4000), @__eventDate_4='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[AboutEvent], [c].[City], [c].[Code], [c].[CreatedAt], [c].[Deleted], [c].[EventDate], [c].[GeneralInfo], [c].[Gym], [c].[Image], [c].[Phase], [c].[PublicEntry], [c].[State], [c].[Status], [c].[Title], [c].[Type], [c].[UpdatedAt]
+FROM [Championships] AS [c]
+WHERE [c].[Deleted] = CAST(0 AS bit) AND [c].[Title] = @__title_0 AND [c].[State] = @__state_1 AND [c].[City] = @__city_2 AND [c].[Gym] = @__gym_3 AND [c].[EventDate] = @__eventDate_4
+2023-10-31 18:18:24.127 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-31 18:18:24.664 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-31 18:18:24.666 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-31 18:18:24.672 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-31 18:18:24.674 -03:00 [INF] Hosting environment: Development
+2023-10-31 18:18:24.676 -03:00 [INF] Content root path: C:\Trabalhos\jiu-jitsu_championships_api\Apis\JiuJitsuMaster.AdminAPI
+2023-10-31 18:18:26.680 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-31 18:18:27.662 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 983.4598ms
+2023-10-31 18:18:27.730 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-31 18:18:27.730 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 18:18:27.834 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 103.7008ms
+2023-10-31 18:18:28.169 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 439.0738ms
+2023-10-31 18:18:28.375 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-31 18:18:28.905 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 529.7991ms
+2023-10-31 18:20:20.214 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/RegisterChampionship multipart/form-data;+boundary=----WebKitFormBoundaryoMjBJBZxTyW6xdJA 16380
+2023-10-31 18:20:20.968 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 18:20:21.070 -03:00 [INF] Route matched with {action = "RegisterChampionship", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterChampionship(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IChampionshipService, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.ChampionshipRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-31 18:20:38.463 -03:00 [INF] Executed DbCommand (157ms) [Parameters=[@__title_0='?' (Size = 100), @__state_1='?' (Size = 50), @__city_2='?' (Size = 50), @__gym_3='?' (Size = 4000), @__eventDate_4='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[AboutEvent], [c].[City], [c].[Code], [c].[CreatedAt], [c].[Deleted], [c].[EventDate], [c].[GeneralInfo], [c].[Gym], [c].[Image], [c].[Phase], [c].[PublicEntry], [c].[State], [c].[Status], [c].[Title], [c].[Type], [c].[UpdatedAt]
+FROM [Championships] AS [c]
+WHERE [c].[Deleted] = CAST(0 AS bit) AND [c].[Title] = @__title_0 AND [c].[State] = @__state_1 AND [c].[City] = @__city_2 AND [c].[Gym] = @__gym_3 AND [c].[EventDate] = @__eventDate_4
+2023-10-31 18:27:34.867 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-31 18:27:35.340 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-31 18:27:35.343 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-31 18:27:35.346 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-31 18:27:35.348 -03:00 [INF] Hosting environment: Development
+2023-10-31 18:27:35.350 -03:00 [INF] Content root path: C:\Trabalhos\jiu-jitsu_championships_api\Apis\JiuJitsuMaster.AdminAPI
+2023-10-31 18:27:36.666 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-31 18:27:37.600 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 931.9672ms
+2023-10-31 18:27:37.701 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-31 18:27:37.701 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 18:27:37.771 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 70.0924ms
+2023-10-31 18:27:38.207 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 506.2523ms
+2023-10-31 18:27:39.070 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-31 18:27:39.368 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 297.9250ms
+2023-10-31 18:30:58.249 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/RegisterChampionship multipart/form-data;+boundary=----WebKitFormBoundaryuQ4nICn7oa8x5HWM 16380
+2023-10-31 18:30:58.963 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 18:30:59.044 -03:00 [INF] Route matched with {action = "RegisterChampionship", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterChampionship(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IChampionshipService, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.ChampionshipRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-31 18:31:14.858 -03:00 [INF] Executed DbCommand (120ms) [Parameters=[@__title_0='?' (Size = 100), @__state_1='?' (Size = 50), @__city_2='?' (Size = 50), @__gym_3='?' (Size = 4000), @__eventDate_4='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[AboutEvent], [c].[City], [c].[Code], [c].[CreatedAt], [c].[Deleted], [c].[EventDate], [c].[GeneralInfo], [c].[Gym], [c].[Image], [c].[Phase], [c].[PublicEntry], [c].[State], [c].[Status], [c].[Title], [c].[Type], [c].[UpdatedAt]
+FROM [Championships] AS [c]
+WHERE [c].[Deleted] = CAST(0 AS bit) AND [c].[Title] = @__title_0 AND [c].[State] = @__state_1 AND [c].[City] = @__city_2 AND [c].[Gym] = @__gym_3 AND [c].[EventDate] = @__eventDate_4
+2023-10-31 18:32:26.108 -03:00 [INF] Executed DbCommand (44ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 50), @p2='?' (Size = 20), @p3='?' (DbType = DateTimeOffset), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (Size = 255), @p8='?' (DbType = Int32), @p9='?' (Size = 4000), @p10='?' (Size = 50), @p11='?' (DbType = Int32), @p12='?' (Size = 100), @p13='?' (DbType = Int32), @p14='?' (DbType = DateTimeOffset)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Championships] ([AboutEvent], [City], [Code], [CreatedAt], [EventDate], [GeneralInfo], [Gym], [Image], [Phase], [PublicEntry], [State], [Status], [Title], [Type], [UpdatedAt])
+OUTPUT INSERTED.[Id], INSERTED.[Deleted]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+2023-10-31 18:32:28.528 -03:00 [INF] Executing CreatedResult, writing value of type 'CommonUtility.Model.BaseModel`1[[CommonUtility.Model.MessageModel, CommonUtility, Version=1.5.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-31 18:32:28.565 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI) in 89508.7511ms
+2023-10-31 18:32:28.570 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 18:32:28.585 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7085/User/RegisterChampionship multipart/form-data;+boundary=----WebKitFormBoundaryuQ4nICn7oa8x5HWM 16380 - 201 - application/json;+charset=utf-8 90340.4790ms
+2023-10-31 19:18:04.227 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-31 19:18:04.914 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-31 19:18:04.918 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-31 19:18:04.922 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-31 19:18:04.924 -03:00 [INF] Hosting environment: Development
+2023-10-31 19:18:04.925 -03:00 [INF] Content root path: C:\Trabalhos\jiu-jitsu_championships_api\Apis\JiuJitsuMaster.AdminAPI
+2023-10-31 19:18:06.538 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-31 19:18:07.315 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 784.7551ms
+2023-10-31 19:18:07.339 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 19:18:07.358 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 18.9517ms
+2023-10-31 19:18:07.508 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-31 19:18:07.638 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 127.2757ms
+2023-10-31 19:18:07.880 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-31 19:18:08.494 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 613.4851ms
+2023-10-31 19:21:51.906 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/RegisterChampionship multipart/form-data;+boundary=----WebKitFormBoundary8QL77o8M5dH8rc2c 16753
+2023-10-31 19:21:52.595 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 19:21:52.649 -03:00 [INF] Route matched with {action = "RegisterChampionship", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterChampionship(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IChampionshipService, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.ChampionshipRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-31 19:22:12.985 -03:00 [INF] Executed DbCommand (120ms) [Parameters=[@__title_0='?' (Size = 100), @__state_1='?' (Size = 50), @__city_2='?' (Size = 50), @__gym_3='?' (Size = 4000), @__eventDate_4='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[AboutEvent], [c].[City], [c].[Code], [c].[CreatedAt], [c].[Deleted], [c].[EventDate], [c].[GeneralInfo], [c].[Gym], [c].[Image], [c].[Phase], [c].[PublicEntry], [c].[State], [c].[Status], [c].[Title], [c].[Type], [c].[UpdatedAt]
+FROM [Championships] AS [c]
+WHERE [c].[Deleted] = CAST(0 AS bit) AND [c].[Title] = @__title_0 AND [c].[State] = @__state_1 AND [c].[City] = @__city_2 AND [c].[Gym] = @__gym_3 AND [c].[EventDate] = @__eventDate_4
+2023-10-31 19:22:55.665 -03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-10-31 19:22:55.691 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI) in 63030.4876ms
+2023-10-31 19:22:55.696 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 19:22:55.714 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7085/User/RegisterChampionship multipart/form-data;+boundary=----WebKitFormBoundary8QL77o8M5dH8rc2c 16753 - 500 - application/json;+charset=utf-8 63812.4239ms
+2023-10-31 19:27:32.827 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-31 19:27:33.462 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-31 19:27:33.465 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-31 19:27:33.469 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-31 19:27:33.470 -03:00 [INF] Hosting environment: Development
+2023-10-31 19:27:33.471 -03:00 [INF] Content root path: C:\Trabalhos\jiu-jitsu_championships_api\Apis\JiuJitsuMaster.AdminAPI
+2023-10-31 19:27:35.045 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-31 19:27:35.656 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 19:27:35.667 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 620.2653ms
+2023-10-31 19:27:35.683 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 26.8582ms
+2023-10-31 19:27:35.736 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-31 19:27:35.891 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 155.5236ms
+2023-10-31 19:27:36.088 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-31 19:27:37.058 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 969.3987ms
+2023-10-31 19:30:21.072 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/RegisterChampionship multipart/form-data;+boundary=----WebKitFormBoundaryksnCVHeooy7hZAW1 16753
+2023-10-31 19:30:21.877 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 19:30:22.011 -03:00 [INF] Route matched with {action = "RegisterChampionship", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterChampionship(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IChampionshipService, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.ChampionshipRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-31 19:30:28.984 -03:00 [INF] Executed DbCommand (105ms) [Parameters=[@__title_0='?' (Size = 100), @__state_1='?' (Size = 50), @__city_2='?' (Size = 50), @__gym_3='?' (Size = 4000), @__eventDate_4='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[AboutEvent], [c].[City], [c].[Code], [c].[CreatedAt], [c].[Deleted], [c].[EventDate], [c].[GeneralInfo], [c].[Gym], [c].[Image], [c].[Phase], [c].[PublicEntry], [c].[State], [c].[Status], [c].[Title], [c].[Type], [c].[UpdatedAt]
+FROM [Championships] AS [c]
+WHERE [c].[Deleted] = CAST(0 AS bit) AND [c].[Title] = @__title_0 AND [c].[State] = @__state_1 AND [c].[City] = @__city_2 AND [c].[Gym] = @__gym_3 AND [c].[EventDate] = @__eventDate_4
+2023-10-31 19:30:29.131 -03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-10-31 19:30:29.144 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI) in 7115.3889ms
+2023-10-31 19:30:29.147 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 19:30:29.159 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7085/User/RegisterChampionship multipart/form-data;+boundary=----WebKitFormBoundaryksnCVHeooy7hZAW1 16753 - 500 - application/json;+charset=utf-8 8087.0746ms
+2023-10-31 19:30:37.290 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/RegisterChampionship multipart/form-data;+boundary=----WebKitFormBoundaryOMaZBPVav2bZjXBD 16753
+2023-10-31 19:30:37.317 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 19:30:37.322 -03:00 [INF] Route matched with {action = "RegisterChampionship", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterChampionship(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IChampionshipService, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.ChampionshipRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-31 19:30:47.672 -03:00 [INF] Executed DbCommand (12ms) [Parameters=[@__title_0='?' (Size = 100), @__state_1='?' (Size = 50), @__city_2='?' (Size = 50), @__gym_3='?' (Size = 4000), @__eventDate_4='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[AboutEvent], [c].[City], [c].[Code], [c].[CreatedAt], [c].[Deleted], [c].[EventDate], [c].[GeneralInfo], [c].[Gym], [c].[Image], [c].[Phase], [c].[PublicEntry], [c].[State], [c].[Status], [c].[Title], [c].[Type], [c].[UpdatedAt]
+FROM [Championships] AS [c]
+WHERE [c].[Deleted] = CAST(0 AS bit) AND [c].[Title] = @__title_0 AND [c].[State] = @__state_1 AND [c].[City] = @__city_2 AND [c].[Gym] = @__gym_3 AND [c].[EventDate] = @__eventDate_4
+2023-10-31 19:32:16.848 -03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-10-31 19:32:16.852 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI) in 99524.263ms
+2023-10-31 19:32:16.914 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 19:32:16.917 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7085/User/RegisterChampionship multipart/form-data;+boundary=----WebKitFormBoundaryOMaZBPVav2bZjXBD 16753 - 500 - application/json;+charset=utf-8 99626.8635ms
+2023-10-31 19:32:38.421 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/RegisterChampionship multipart/form-data;+boundary=----WebKitFormBoundaryn3r6BeNFXoQ7TWPw 16752
+2023-10-31 19:32:38.441 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 19:32:38.446 -03:00 [INF] Route matched with {action = "RegisterChampionship", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterChampionship(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IChampionshipService, JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.ChampionshipRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-31 19:32:42.336 -03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__title_0='?' (Size = 100), @__state_1='?' (Size = 50), @__city_2='?' (Size = 50), @__gym_3='?' (Size = 4000), @__eventDate_4='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[AboutEvent], [c].[City], [c].[Code], [c].[CreatedAt], [c].[Deleted], [c].[EventDate], [c].[GeneralInfo], [c].[Gym], [c].[Image], [c].[Phase], [c].[PublicEntry], [c].[State], [c].[Status], [c].[Title], [c].[Type], [c].[UpdatedAt]
+FROM [Championships] AS [c]
+WHERE [c].[Deleted] = CAST(0 AS bit) AND [c].[Title] = @__title_0 AND [c].[State] = @__state_1 AND [c].[City] = @__city_2 AND [c].[Gym] = @__gym_3 AND [c].[EventDate] = @__eventDate_4
+2023-10-31 19:32:45.931 -03:00 [INF] Executed DbCommand (127ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 50), @p2='?' (Size = 20), @p3='?' (DbType = DateTimeOffset), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (Size = 255), @p8='?' (DbType = Int32), @p9='?' (Size = 4000), @p10='?' (Size = 50), @p11='?' (DbType = Int32), @p12='?' (Size = 100), @p13='?' (DbType = Int32), @p14='?' (DbType = DateTimeOffset)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Championships] ([AboutEvent], [City], [Code], [CreatedAt], [EventDate], [GeneralInfo], [Gym], [Image], [Phase], [PublicEntry], [State], [Status], [Title], [Type], [UpdatedAt])
+OUTPUT INSERTED.[Id], INSERTED.[Deleted]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+2023-10-31 19:32:46.112 -03:00 [INF] Executing CreatedResult, writing value of type 'CommonUtility.Model.BaseModel`1[[CommonUtility.Model.MessageModel, CommonUtility, Version=1.5.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-31 19:32:46.141 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI) in 7691.5209ms
+2023-10-31 19:32:46.146 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.RegisterChampionship (JiuJitsuMaster.AdminAPI)'
+2023-10-31 19:32:46.153 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7085/User/RegisterChampionship multipart/form-data;+boundary=----WebKitFormBoundaryn3r6BeNFXoQ7TWPw 16752 - 201 - application/json;+charset=utf-8 7732.2284ms
+2023-10-31 23:36:31.549 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-31 23:36:32.056 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-31 23:36:32.058 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-31 23:36:32.061 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-31 23:36:32.062 -03:00 [INF] Hosting environment: Development
+2023-10-31 23:36:32.063 -03:00 [INF] Content root path: C:\Trabalhos\jiu-jitsu_championships_api\Apis\JiuJitsuMaster.AdminAPI
+2023-10-31 23:36:34.531 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-31 23:36:35.595 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 1044.8994ms
+2023-10-31 23:36:36.034 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 23:36:36.064 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 30.0148ms
+2023-10-31 23:36:36.171 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-31 23:36:36.278 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 107.0404ms
+2023-10-31 23:36:36.437 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-31 23:36:36.856 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 419.0186ms
+2023-10-31 23:37:06.666 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/Championship?page=1&limit=100 - -
+2023-10-31 23:37:06.952 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.ChampionshipController.ListPageAsync (JiuJitsuMaster.AdminAPI)'
+2023-10-31 23:37:06.985 -03:00 [INF] Route matched with {action = "ListPage", controller = "Championship"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ListPageAsync(JiuJitsuMaster.Core.Interfaces.Services.IChampionshipService, AutoMapper.IMapper, Int32, Int32, System.String, System.String, System.String, System.Nullable`1[JiuJitsuMaster.Core.Enums.ChampionshipStatus], System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.ChampionshipController (JiuJitsuMaster.AdminAPI).
+2023-10-31 23:37:09.528 -03:00 [INF] Executed DbCommand (357ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Championships] AS [c]
+WHERE [c].[Deleted] = CAST(0 AS bit)
+2023-10-31 23:37:09.568 -03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-10-31 23:37:09.570 -03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-10-31 23:37:09.681 -03:00 [INF] Executed DbCommand (73ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[AboutEvent], [c].[City], [c].[Code], [c].[CreatedAt], [c].[Deleted], [c].[EventDate], [c].[GeneralInfo], [c].[Gym], [c].[Image], [c].[Phase], [c].[PublicEntry], [c].[State], [c].[Status], [c].[Title], [c].[Type], [c].[UpdatedAt]
+FROM [Championships] AS [c]
+WHERE [c].[Deleted] = CAST(0 AS bit)
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2023-10-31 23:37:09.706 -03:00 [INF] Executing OkObjectResult, writing value of type 'CommonUtility.Model.BaseModel`1[[CommonUtility.Model.ListBaseModel`1[[System.Collections.Generic.List`1[[JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.ChampionshipResponseModel, JiuJitsuMaster.AdminAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CommonUtility, Version=1.5.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-31 23:37:09.738 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.ChampionshipController.ListPageAsync (JiuJitsuMaster.AdminAPI) in 2746.4268ms
+2023-10-31 23:37:09.740 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.ChampionshipController.ListPageAsync (JiuJitsuMaster.AdminAPI)'
+2023-10-31 23:37:09.749 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/Championship?page=1&limit=100 - - - 200 - application/json;+charset=utf-8 3082.8745ms
+2023-10-31 23:37:28.862 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/Championship?page=1&limit=100&city=S - -
+2023-10-31 23:37:28.873 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.ChampionshipController.ListPageAsync (JiuJitsuMaster.AdminAPI)'
+2023-10-31 23:37:28.876 -03:00 [INF] Route matched with {action = "ListPage", controller = "Championship"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ListPageAsync(JiuJitsuMaster.Core.Interfaces.Services.IChampionshipService, AutoMapper.IMapper, Int32, Int32, System.String, System.String, System.String, System.Nullable`1[JiuJitsuMaster.Core.Enums.ChampionshipStatus], System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.ChampionshipController (JiuJitsuMaster.AdminAPI).
+2023-10-31 23:37:29.016 -03:00 [INF] Executed DbCommand (67ms) [Parameters=[@__Format_1='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Championships] AS [c]
+WHERE [c].[Deleted] = CAST(0 AS bit) AND ([c].[City] LIKE @__Format_1)
+2023-10-31 23:37:29.021 -03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-10-31 23:37:29.022 -03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-10-31 23:37:29.031 -03:00 [INF] Executed DbCommand (7ms) [Parameters=[@__Format_1='?' (Size = 50), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[AboutEvent], [c].[City], [c].[Code], [c].[CreatedAt], [c].[Deleted], [c].[EventDate], [c].[GeneralInfo], [c].[Gym], [c].[Image], [c].[Phase], [c].[PublicEntry], [c].[State], [c].[Status], [c].[Title], [c].[Type], [c].[UpdatedAt]
+FROM [Championships] AS [c]
+WHERE [c].[Deleted] = CAST(0 AS bit) AND ([c].[City] LIKE @__Format_1)
+ORDER BY (SELECT 1)
+OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+2023-10-31 23:37:29.034 -03:00 [INF] Executing OkObjectResult, writing value of type 'CommonUtility.Model.BaseModel`1[[CommonUtility.Model.ListBaseModel`1[[System.Collections.Generic.List`1[[JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.ChampionshipResponseModel, JiuJitsuMaster.AdminAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CommonUtility, Version=1.5.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-31 23:37:29.036 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.ChampionshipController.ListPageAsync (JiuJitsuMaster.AdminAPI) in 157.8028ms
+2023-10-31 23:37:29.037 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.ChampionshipController.ListPageAsync (JiuJitsuMaster.AdminAPI)'
+2023-10-31 23:37:29.039 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/Championship?page=1&limit=100&city=S - - - 200 - application/json;+charset=utf-8 176.4485ms
+2023-10-31 23:37:49.037 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/Championship?page=1&limit=100&title=Campeonato%20&city=S - -
+2023-10-31 23:37:49.057 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.ChampionshipController.ListPageAsync (JiuJitsuMaster.AdminAPI)'
+2023-10-31 23:37:49.060 -03:00 [INF] Route matched with {action = "ListPage", controller = "Championship"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ListPageAsync(JiuJitsuMaster.Core.Interfaces.Services.IChampionshipService, AutoMapper.IMapper, Int32, Int32, System.String, System.String, System.String, System.Nullable`1[JiuJitsuMaster.Core.Enums.ChampionshipStatus], System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.ChampionshipController (JiuJitsuMaster.AdminAPI).
+2023-10-31 23:37:49.141 -03:00 [INF] Executed DbCommand (57ms) [Parameters=[@__Format_1='?' (Size = 100), @__Format_2='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Championships] AS [c]
+WHERE [c].[Deleted] = CAST(0 AS bit) AND ([c].[Title] LIKE @__Format_1) AND ([c].[City] LIKE @__Format_2)
+2023-10-31 23:37:49.147 -03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-10-31 23:37:49.148 -03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-10-31 23:37:49.177 -03:00 [INF] Executed DbCommand (26ms) [Parameters=[@__Format_1='?' (Size = 100), @__Format_2='?' (Size = 50), @__p_3='?' (DbType = Int32), @__p_4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[AboutEvent], [c].[City], [c].[Code], [c].[CreatedAt], [c].[Deleted], [c].[EventDate], [c].[GeneralInfo], [c].[Gym], [c].[Image], [c].[Phase], [c].[PublicEntry], [c].[State], [c].[Status], [c].[Title], [c].[Type], [c].[UpdatedAt]
+FROM [Championships] AS [c]
+WHERE [c].[Deleted] = CAST(0 AS bit) AND ([c].[Title] LIKE @__Format_1) AND ([c].[City] LIKE @__Format_2)
+ORDER BY (SELECT 1)
+OFFSET @__p_3 ROWS FETCH NEXT @__p_4 ROWS ONLY
+2023-10-31 23:37:49.181 -03:00 [INF] Executing OkObjectResult, writing value of type 'CommonUtility.Model.BaseModel`1[[CommonUtility.Model.ListBaseModel`1[[System.Collections.Generic.List`1[[JiuJitsuMaster.AdminAPI.Models.ChampionshipModel.ChampionshipResponseModel, JiuJitsuMaster.AdminAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CommonUtility, Version=1.5.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-31 23:37:49.182 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.ChampionshipController.ListPageAsync (JiuJitsuMaster.AdminAPI) in 118.9784ms
+2023-10-31 23:37:49.183 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.ChampionshipController.ListPageAsync (JiuJitsuMaster.AdminAPI)'
+2023-10-31 23:37:49.184 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/Championship?page=1&limit=100&title=Campeonato%20&city=S - - - 200 - application/json;+charset=utf-8 147.1743ms

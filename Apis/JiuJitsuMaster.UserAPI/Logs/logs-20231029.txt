@@ -1,0 +1,28 @@
+2023-10-29 17:01:26.860 -03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-10-29 17:01:27.160 -03:00 [INF] Now listening on: https://localhost:7181
+2023-10-29 17:01:27.163 -03:00 [INF] Now listening on: http://localhost:5088
+2023-10-29 17:01:27.165 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-29 17:01:27.167 -03:00 [INF] Hosting environment: Development
+2023-10-29 17:01:27.168 -03:00 [INF] Content root path: C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.UserAPI
+2023-10-29 17:01:29.330 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7181/swagger - -
+2023-10-29 17:01:29.417 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7181/swagger - - - 301 0 - 89.3896ms
+2023-10-29 17:01:29.885 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7181/swagger/index.html - -
+2023-10-29 17:01:30.687 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7181/swagger/swagger-ui.css - -
+2023-10-29 17:01:30.696 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7181/swagger/index.html - - - 200 - text/html;charset=utf-8 809.7699ms
+2023-10-29 17:01:30.697 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7181/swagger/swagger-ui-bundle.js - -
+2023-10-29 17:01:30.765 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7181/swagger/swagger-ui-standalone-preset.js - -
+2023-10-29 17:01:30.787 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7181/_vs/browserLink - -
+2023-10-29 17:01:30.787 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7181/_framework/aspnetcore-browser-refresh.js - -
+2023-10-29 17:01:30.846 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7181/_framework/aspnetcore-browser-refresh.js - - - 200 12376 application/javascript;+charset=utf-8 55.9973ms
+2023-10-29 17:01:30.894 -03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-10-29 17:01:30.894 -03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-10-29 17:01:30.897 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7181/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 133.7300ms
+2023-10-29 17:01:30.905 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7181/swagger/swagger-ui.css - - - 200 144929 text/css 218.7598ms
+2023-10-29 17:01:30.967 -03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-10-29 17:01:30.973 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7181/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 185.8417ms
+2023-10-29 17:01:30.978 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7181/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 280.2202ms
+2023-10-29 17:01:31.305 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7181/swagger/v1/swagger.json - -
+2023-10-29 17:01:31.365 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7181/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 60.0250ms
+2023-10-29 17:01:31.427 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7181/swagger/favicon-32x32.png - -
+2023-10-29 17:01:31.441 -03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-29 17:01:31.501 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7181/swagger/favicon-32x32.png - - - 200 628 image/png 74.6773ms

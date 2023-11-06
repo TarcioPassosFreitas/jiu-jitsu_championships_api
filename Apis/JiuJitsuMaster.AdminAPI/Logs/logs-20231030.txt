@@ -1,0 +1,750 @@
+2023-10-30 00:02:36.108 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-30 00:02:36.788 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-30 00:02:36.790 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-30 00:02:36.792 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-30 00:02:36.793 -03:00 [INF] Hosting environment: Development
+2023-10-30 00:02:36.794 -03:00 [INF] Content root path: C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AdminAPI
+2023-10-30 00:02:40.387 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-30 00:02:41.808 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 1423.7466ms
+2023-10-30 00:02:41.931 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 00:02:41.931 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-30 00:02:41.951 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 19.1415ms
+2023-10-30 00:02:42.635 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 703.9393ms
+2023-10-30 00:02:42.841 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-30 00:02:43.219 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 377.6285ms
+2023-10-30 00:03:27.805 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/Register application/json 109
+2023-10-30 00:03:27.895 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI)'
+2023-10-30 00:03:27.929 -03:00 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IUserService, JiuJitsuMaster.AdminAPI.Models.RegisterRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-30 00:03:58.066 -03:00 [INF] Executed DbCommand (118ms) [Parameters=[@p0='?' (DbType = DateTimeOffset), @p1='?' (Size = 80), @p2='?' (Size = 80), @p3='?' (Size = 100), @p4='?' (Size = 255), @p5='?' (DbType = Int32), @p6='?' (DbType = DateTimeOffset)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([CreatedAt], [Email], [Name], [Password], [RefreshToken], [Role], [UpdatedAt])
+OUTPUT INSERTED.[Id], INSERTED.[Deleted]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2023-10-30 00:03:58.144 -03:00 [ERR] An exception occurred in the database while saving changes for context type 'JiuJitsuMaster.Infrastructure.Database.Contexts.DatabaseContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Users' with unique index 'IX_Users_Email'. The duplicate key value is (admin@kbrtec.com.br).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:95561361-0bd2-4c3e-9d33-25b91f6c9d63
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Users' with unique index 'IX_Users_Email'. The duplicate key value is (admin@kbrtec.com.br).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:95561361-0bd2-4c3e-9d33-25b91f6c9d63
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-10-30 00:08:50.223 -03:00 [ERR] Erro interno durante o convite
+2023-10-30 00:08:50.271 -03:00 [INF] Executing ObjectResult, writing value of type 'CommonUtility.Model.BaseModel`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-30 00:08:50.306 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI) in 322371.3942ms
+2023-10-30 00:08:50.311 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI)'
+2023-10-30 00:08:50.336 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7085/User/Register application/json 109 - 500 - application/json;+charset=utf-8 322530.2397ms
+2023-10-30 00:09:35.493 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/Register application/json 109
+2023-10-30 00:09:35.511 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI)'
+2023-10-30 00:09:35.517 -03:00 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IUserService, JiuJitsuMaster.AdminAPI.Models.RegisterRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-30 00:09:49.221 -03:00 [INF] Executed DbCommand (72ms) [Parameters=[@p0='?' (DbType = DateTimeOffset), @p1='?' (Size = 80), @p2='?' (Size = 80), @p3='?' (Size = 100), @p4='?' (Size = 255), @p5='?' (DbType = Int32), @p6='?' (DbType = DateTimeOffset)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([CreatedAt], [Email], [Name], [Password], [RefreshToken], [Role], [UpdatedAt])
+OUTPUT INSERTED.[Id], INSERTED.[Deleted]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2023-10-30 00:09:52.695 -03:00 [INF] Usuário registrado com sucesso
+2023-10-30 00:09:52.698 -03:00 [INF] Executing CreatedResult, writing value of type 'CommonUtility.Model.BaseModel`1[[CommonUtility.Model.MessageModel, CommonUtility, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-30 00:09:52.707 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI) in 17188.2717ms
+2023-10-30 00:09:52.708 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI)'
+2023-10-30 00:09:52.710 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7085/User/Register application/json 109 - 201 - application/json;+charset=utf-8 17217.2099ms
+2023-10-30 00:21:45.718 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-30 00:21:47.107 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-30 00:21:47.110 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-30 00:21:47.112 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-30 00:21:47.113 -03:00 [INF] Hosting environment: Development
+2023-10-30 00:21:47.115 -03:00 [INF] Content root path: C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AdminAPI
+2023-10-30 00:21:48.404 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-30 00:21:49.724 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 1312.4105ms
+2023-10-30 00:21:49.726 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 00:21:49.739 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 12.5051ms
+2023-10-30 00:21:49.826 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-30 00:21:49.975 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 150.3060ms
+2023-10-30 00:21:50.066 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-30 00:21:50.418 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 352.0097ms
+2023-10-30 00:22:37.199 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/Register application/json 109
+2023-10-30 00:22:37.287 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI)'
+2023-10-30 00:22:37.329 -03:00 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IUserService, JiuJitsuMaster.AdminAPI.Models.RegisterRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-30 00:22:46.188 -03:00 [INF] Executed DbCommand (55ms) [Parameters=[@p0='?' (DbType = DateTimeOffset), @p1='?' (Size = 80), @p2='?' (Size = 80), @p3='?' (Size = 100), @p4='?' (Size = 255), @p5='?' (DbType = Int32), @p6='?' (DbType = DateTimeOffset)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([CreatedAt], [Email], [Name], [Password], [RefreshToken], [Role], [UpdatedAt])
+OUTPUT INSERTED.[Id], INSERTED.[Deleted]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2023-10-30 00:22:46.254 -03:00 [INF] Usuário registrado com sucesso
+2023-10-30 00:22:46.263 -03:00 [INF] Executing CreatedResult, writing value of type 'CommonUtility.Model.BaseModel`1[[CommonUtility.Model.MessageModel, CommonUtility, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-30 00:22:46.272 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI) in 8937.6048ms
+2023-10-30 00:22:46.274 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI)'
+2023-10-30 00:22:46.280 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7085/User/Register application/json 109 - 201 - application/json;+charset=utf-8 9081.2584ms
+2023-10-30 00:23:35.826 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/Register application/json 109
+2023-10-30 00:23:35.837 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI)'
+2023-10-30 00:23:35.839 -03:00 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IUserService, JiuJitsuMaster.AdminAPI.Models.RegisterRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-30 00:23:37.955 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = DateTimeOffset), @p1='?' (Size = 80), @p2='?' (Size = 80), @p3='?' (Size = 100), @p4='?' (Size = 255), @p5='?' (DbType = Int32), @p6='?' (DbType = DateTimeOffset)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([CreatedAt], [Email], [Name], [Password], [RefreshToken], [Role], [UpdatedAt])
+OUTPUT INSERTED.[Id], INSERTED.[Deleted]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2023-10-30 00:23:37.966 -03:00 [INF] Usuário registrado com sucesso
+2023-10-30 00:23:37.967 -03:00 [INF] Executing CreatedResult, writing value of type 'CommonUtility.Model.BaseModel`1[[CommonUtility.Model.MessageModel, CommonUtility, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-30 00:23:37.968 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI) in 2126.7413ms
+2023-10-30 00:23:37.969 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI)'
+2023-10-30 00:23:37.970 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7085/User/Register application/json 109 - 201 - application/json;+charset=utf-8 2144.5952ms
+2023-10-30 00:24:11.865 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-30 00:24:12.116 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-30 00:24:12.116 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-30 00:24:12.118 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-30 00:24:12.119 -03:00 [INF] Hosting environment: Development
+2023-10-30 00:24:12.119 -03:00 [INF] Content root path: C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AdminAPI
+2023-10-30 00:24:14.679 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-30 00:24:15.844 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 1171.0133ms
+2023-10-30 00:24:15.856 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 00:24:15.891 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 34.9213ms
+2023-10-30 00:24:16.017 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-30 00:24:16.268 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 251.3598ms
+2023-10-30 00:24:16.449 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-30 00:24:16.922 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 472.7561ms
+2023-10-30 00:28:51.809 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-30 00:28:52.408 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-30 00:28:52.409 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-30 00:28:52.410 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-30 00:28:52.411 -03:00 [INF] Hosting environment: Development
+2023-10-30 00:28:52.412 -03:00 [INF] Content root path: C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AdminAPI
+2023-10-30 00:28:56.135 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-30 00:28:56.588 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 453.9637ms
+2023-10-30 00:28:56.603 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 00:28:56.617 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 13.5281ms
+2023-10-30 00:28:56.680 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-30 00:28:56.739 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 60.0244ms
+2023-10-30 00:28:56.890 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-30 00:28:57.333 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 442.6789ms
+2023-10-30 00:29:49.030 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/Register application/json 86
+2023-10-30 00:29:49.489 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI)'
+2023-10-30 00:29:49.519 -03:00 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IUserService, JiuJitsuMaster.AdminAPI.Models.RegisterRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-30 00:30:33.603 -03:00 [INF] Executed DbCommand (161ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Deleted], [u].[Email], [u].[Name], [u].[Password], [u].[RefreshToken], [u].[Role], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Deleted] = CAST(0 AS bit) AND [u].[Id] = @__id_0
+2023-10-30 00:30:53.256 -03:00 [INF] Executed DbCommand (264ms) [Parameters=[@p0='?' (DbType = DateTimeOffset), @p1='?' (Size = 80), @p2='?' (Size = 80), @p3='?' (Size = 100), @p4='?' (Size = 255), @p5='?' (DbType = DateTimeOffset)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([CreatedAt], [Email], [Name], [Password], [RefreshToken], [UpdatedAt])
+OUTPUT INSERTED.[Id], INSERTED.[Deleted], INSERTED.[Role]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2023-10-30 00:31:01.907 -03:00 [INF] Usuário registrado com sucesso
+2023-10-30 00:31:03.699 -03:00 [INF] Executing CreatedResult, writing value of type 'CommonUtility.Model.BaseModel`1[[CommonUtility.Model.MessageModel, CommonUtility, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-30 00:31:03.710 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI) in 74185.7953ms
+2023-10-30 00:31:03.713 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI)'
+2023-10-30 00:31:03.722 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7085/User/Register application/json 86 - 201 - application/json;+charset=utf-8 74692.4614ms
+2023-10-30 00:32:55.697 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/Register application/json 82
+2023-10-30 00:32:55.712 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI)'
+2023-10-30 00:32:55.716 -03:00 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IUserService, JiuJitsuMaster.AdminAPI.Models.RegisterRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-30 00:32:57.824 -03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Deleted], [u].[Email], [u].[Name], [u].[Password], [u].[RefreshToken], [u].[Role], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Deleted] = CAST(0 AS bit) AND [u].[Id] = @__id_0
+2023-10-30 00:32:57.900 -03:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = DateTimeOffset), @p1='?' (Size = 80), @p2='?' (Size = 80), @p3='?' (Size = 100), @p4='?' (Size = 255), @p5='?' (DbType = DateTimeOffset)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([CreatedAt], [Email], [Name], [Password], [RefreshToken], [UpdatedAt])
+OUTPUT INSERTED.[Id], INSERTED.[Deleted], INSERTED.[Role]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2023-10-30 00:32:57.906 -03:00 [INF] Usuário registrado com sucesso
+2023-10-30 00:32:57.907 -03:00 [INF] Executing CreatedResult, writing value of type 'CommonUtility.Model.BaseModel`1[[CommonUtility.Model.MessageModel, CommonUtility, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-30 00:32:57.908 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI) in 2190.3607ms
+2023-10-30 00:32:57.909 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI)'
+2023-10-30 00:32:57.910 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7085/User/Register application/json 82 - 201 - application/json;+charset=utf-8 2213.8481ms
+2023-10-30 00:41:31.170 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-30 00:41:31.576 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-30 00:41:31.578 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-30 00:41:31.580 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-30 00:41:31.581 -03:00 [INF] Hosting environment: Development
+2023-10-30 00:41:31.582 -03:00 [INF] Content root path: C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AdminAPI
+2023-10-30 00:41:34.237 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-30 00:41:34.738 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 500.0379ms
+2023-10-30 00:41:34.767 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 00:41:34.774 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 7.1666ms
+2023-10-30 00:41:35.545 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-30 00:41:35.940 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 394.8826ms
+2023-10-30 00:41:36.077 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-30 00:41:36.720 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 643.0073ms
+2023-10-30 00:43:45.585 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/Register application/json 100
+2023-10-30 00:43:45.764 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI)'
+2023-10-30 00:43:45.799 -03:00 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IUserService, JiuJitsuMaster.AdminAPI.Models.RegisterRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-30 00:43:51.595 -03:00 [INF] Executed DbCommand (80ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Deleted], [u].[Email], [u].[Name], [u].[Password], [u].[RefreshToken], [u].[Role], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Deleted] = CAST(0 AS bit) AND [u].[Id] = @__id_0
+2023-10-30 00:43:51.705 -03:00 [INF] Executed DbCommand (41ms) [Parameters=[@__email_0='?' (Size = 80)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Deleted], [u].[Email], [u].[Name], [u].[Password], [u].[RefreshToken], [u].[Role], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Deleted] = CAST(0 AS bit) AND [u].[Email] = @__email_0
+2023-10-30 00:43:51.735 -03:00 [WRN] Dados inválidos para o cadastro: ["Ardalis.Result.ValidationError"]
+2023-10-30 00:43:51.752 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'CommonUtility.Model.BaseModel`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-30 00:43:51.768 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI) in 5964.755ms
+2023-10-30 00:43:51.773 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI)'
+2023-10-30 00:43:51.783 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7085/User/Register application/json 100 - 400 - application/json;+charset=utf-8 6198.1140ms
+2023-10-30 00:44:11.242 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/Register application/json 100
+2023-10-30 00:44:11.277 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI)'
+2023-10-30 00:44:11.279 -03:00 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IUserService, JiuJitsuMaster.AdminAPI.Models.RegisterRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-30 00:44:14.457 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Deleted], [u].[Email], [u].[Name], [u].[Password], [u].[RefreshToken], [u].[Role], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Deleted] = CAST(0 AS bit) AND [u].[Id] = @__id_0
+2023-10-30 00:44:14.461 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__email_0='?' (Size = 80)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Deleted], [u].[Email], [u].[Name], [u].[Password], [u].[RefreshToken], [u].[Role], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Deleted] = CAST(0 AS bit) AND [u].[Email] = @__email_0
+2023-10-30 00:44:14.769 -03:00 [INF] Executed DbCommand (71ms) [Parameters=[@p0='?' (DbType = DateTimeOffset), @p1='?' (Size = 80), @p2='?' (Size = 80), @p3='?' (Size = 100), @p4='?' (Size = 255), @p5='?' (DbType = Int32), @p6='?' (DbType = DateTimeOffset)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([CreatedAt], [Email], [Name], [Password], [RefreshToken], [Role], [UpdatedAt])
+OUTPUT INSERTED.[Id], INSERTED.[Deleted]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2023-10-30 00:44:14.836 -03:00 [ERR] An exception occurred in the database while saving changes for context type 'JiuJitsuMaster.Infrastructure.Database.Contexts.DatabaseContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Users' with unique index 'IX_Users_Email'. The duplicate key value is (teste@kbrtec.com.br).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:52cb9891-cebb-4e51-bc24-e31c04b89334
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Users' with unique index 'IX_Users_Email'. The duplicate key value is (teste@kbrtec.com.br).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:52cb9891-cebb-4e51-bc24-e31c04b89334
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-10-30 00:44:14.989 -03:00 [ERR] Erro interno durante o convite
+2023-10-30 00:44:14.991 -03:00 [INF] Executing ObjectResult, writing value of type 'CommonUtility.Model.BaseModel`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-30 00:44:14.992 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI) in 3711.046ms
+2023-10-30 00:44:14.993 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI)'
+2023-10-30 00:44:14.994 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7085/User/Register application/json 100 - 500 - application/json;+charset=utf-8 3751.7061ms
+2023-10-30 00:44:24.777 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/Register application/json 100
+2023-10-30 00:44:24.780 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI)'
+2023-10-30 00:44:24.781 -03:00 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IUserService, JiuJitsuMaster.AdminAPI.Models.RegisterRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-30 00:44:38.831 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Deleted], [u].[Email], [u].[Name], [u].[Password], [u].[RefreshToken], [u].[Role], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Deleted] = CAST(0 AS bit) AND [u].[Id] = @__id_0
+2023-10-30 00:44:47.712 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__email_0='?' (Size = 80)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Deleted], [u].[Email], [u].[Name], [u].[Password], [u].[RefreshToken], [u].[Role], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Deleted] = CAST(0 AS bit) AND [u].[Email] = @__email_0
+2023-10-30 00:45:19.989 -03:00 [INF] Executed DbCommand (11ms) [Parameters=[@p0='?' (DbType = DateTimeOffset), @p1='?' (Size = 80), @p2='?' (Size = 80), @p3='?' (Size = 100), @p4='?' (Size = 255), @p5='?' (DbType = Int32), @p6='?' (DbType = DateTimeOffset)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([CreatedAt], [Email], [Name], [Password], [RefreshToken], [Role], [UpdatedAt])
+OUTPUT INSERTED.[Id], INSERTED.[Deleted]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2023-10-30 00:45:19.997 -03:00 [ERR] An exception occurred in the database while saving changes for context type 'JiuJitsuMaster.Infrastructure.Database.Contexts.DatabaseContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Users' with unique index 'IX_Users_Email'. The duplicate key value is (teste@kbrtec.com.br).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:52cb9891-cebb-4e51-bc24-e31c04b89334
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Users' with unique index 'IX_Users_Email'. The duplicate key value is (teste@kbrtec.com.br).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:52cb9891-cebb-4e51-bc24-e31c04b89334
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-10-30 00:45:20.120 -03:00 [ERR] Erro interno durante o convite
+2023-10-30 00:45:20.121 -03:00 [INF] Executing ObjectResult, writing value of type 'CommonUtility.Model.BaseModel`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-30 00:45:20.122 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI) in 55340.5511ms
+2023-10-30 00:45:20.123 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI)'
+2023-10-30 00:45:20.124 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7085/User/Register application/json 100 - 500 - application/json;+charset=utf-8 55348.0255ms
+2023-10-30 00:55:27.140 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-30 00:55:27.997 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-30 00:55:27.998 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-30 00:55:28.000 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-30 00:55:28.001 -03:00 [INF] Hosting environment: Development
+2023-10-30 00:55:28.001 -03:00 [INF] Content root path: C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AdminAPI
+2023-10-30 00:55:30.952 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-30 00:55:31.478 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 00:55:31.480 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 523.7478ms
+2023-10-30 00:55:31.491 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 13.3444ms
+2023-10-30 00:55:31.544 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-30 00:55:31.588 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 43.3644ms
+2023-10-30 00:55:31.738 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-30 00:55:32.021 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 282.8799ms
+2023-10-30 00:56:39.095 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/Register application/json 100
+2023-10-30 00:56:39.543 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI)'
+2023-10-30 00:56:39.616 -03:00 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IUserService, JiuJitsuMaster.AdminAPI.Models.RegisterRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-30 00:57:09.403 -03:00 [INF] Executed DbCommand (474ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Deleted], [u].[Email], [u].[Name], [u].[Password], [u].[RefreshToken], [u].[Role], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Deleted] = CAST(0 AS bit) AND [u].[Id] = @__id_0
+2023-10-30 00:57:18.785 -03:00 [INF] Executed DbCommand (500ms) [Parameters=[@__email_0='?' (Size = 80)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Deleted], [u].[Email], [u].[Name], [u].[Password], [u].[RefreshToken], [u].[Role], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Deleted] = CAST(0 AS bit) AND [u].[Email] = @__email_0 AND [u].[Deleted] = CAST(0 AS bit)
+2023-10-30 00:57:48.636 -03:00 [INF] Executed DbCommand (76ms) [Parameters=[@p0='?' (DbType = DateTimeOffset), @p1='?' (Size = 80), @p2='?' (Size = 80), @p3='?' (Size = 100), @p4='?' (Size = 255), @p5='?' (DbType = Int32), @p6='?' (DbType = DateTimeOffset)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([CreatedAt], [Email], [Name], [Password], [RefreshToken], [Role], [UpdatedAt])
+OUTPUT INSERTED.[Id], INSERTED.[Deleted]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2023-10-30 00:57:48.903 -03:00 [ERR] An exception occurred in the database while saving changes for context type 'JiuJitsuMaster.Infrastructure.Database.Contexts.DatabaseContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Users' with unique index 'IX_Users_Email'. The duplicate key value is (teste@kbrtec.com.br).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:c21bd0be-8450-4277-a593-266dcbcaebb1
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Users' with unique index 'IX_Users_Email'. The duplicate key value is (teste@kbrtec.com.br).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:c21bd0be-8450-4277-a593-266dcbcaebb1
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-10-30 01:47:19.616 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-30 01:47:20.793 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-30 01:47:20.795 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-30 01:47:20.797 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-30 01:47:20.798 -03:00 [INF] Hosting environment: Development
+2023-10-30 01:47:20.798 -03:00 [INF] Content root path: C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AdminAPI
+2023-10-30 01:47:24.781 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-30 01:47:25.414 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 636.4020ms
+2023-10-30 01:47:25.441 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 01:47:25.475 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 34.5703ms
+2023-10-30 01:47:25.567 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-30 01:47:25.780 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 217.4530ms
+2023-10-30 01:47:25.863 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-30 01:47:26.193 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 330.0082ms
+2023-10-30 01:50:27.243 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-30 01:50:28.042 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-30 01:50:28.043 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-30 01:50:28.045 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-30 01:50:28.045 -03:00 [INF] Hosting environment: Development
+2023-10-30 01:50:28.046 -03:00 [INF] Content root path: C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AdminAPI
+2023-10-30 01:50:30.767 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-30 01:50:32.480 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 1693.5818ms
+2023-10-30 01:50:33.217 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-30 01:50:33.217 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 01:50:33.233 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 15.3713ms
+2023-10-30 01:50:33.277 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 59.9639ms
+2023-10-30 01:50:33.666 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-30 01:50:33.897 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 231.6665ms
+2023-10-30 01:51:17.209 -03:00 [INF] Request starting HTTP/2 PUT https://localhost:7085/User/7 application/json 24
+2023-10-30 01:51:17.537 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.EditUser (JiuJitsuMaster.AdminAPI)'
+2023-10-30 01:51:17.565 -03:00 [INF] Route matched with {action = "EditUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditUser(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IUserService, Int64, JiuJitsuMaster.AdminAPI.Models.UserUpdateRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-30 01:51:20.990 -03:00 [INF] Executed DbCommand (115ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Deleted], [u].[Email], [u].[Name], [u].[Password], [u].[RefreshToken], [u].[Role], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Deleted] = CAST(0 AS bit) AND [u].[Id] = @__id_0
+2023-10-30 01:51:21.024 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Deleted], [u].[Email], [u].[Name], [u].[Password], [u].[RefreshToken], [u].[Role], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Deleted] = CAST(0 AS bit) AND [u].[Id] = @__id_0
+2023-10-30 01:51:21.126 -03:00 [INF] Executed DbCommand (58ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Deleted], [u].[Email], [u].[Name], [u].[Password], [u].[RefreshToken], [u].[Role], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE 0 = 1
+2023-10-30 01:51:21.151 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'CommonUtility.Model.BaseModel`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-30 01:51:21.163 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.EditUser (JiuJitsuMaster.AdminAPI) in 3592.2564ms
+2023-10-30 01:51:21.165 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.EditUser (JiuJitsuMaster.AdminAPI)'
+2023-10-30 01:51:21.175 -03:00 [INF] Request finished HTTP/2 PUT https://localhost:7085/User/7 application/json 24 - 400 - application/json;+charset=utf-8 3967.1588ms
+2023-10-30 01:55:32.888 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-30 01:55:33.744 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-30 01:55:33.745 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-30 01:55:33.747 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-30 01:55:33.748 -03:00 [INF] Hosting environment: Development
+2023-10-30 01:55:33.748 -03:00 [INF] Content root path: C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AdminAPI
+2023-10-30 01:55:35.035 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-30 01:55:35.449 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 414.9538ms
+2023-10-30 01:55:35.461 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 01:55:35.470 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 9.1030ms
+2023-10-30 01:55:35.551 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-30 01:55:35.697 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 147.1718ms
+2023-10-30 01:55:36.026 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-30 01:55:36.459 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 433.6527ms
+2023-10-30 01:56:06.980 -03:00 [INF] Request starting HTTP/2 PUT https://localhost:7085/User/7 application/json 24
+2023-10-30 01:56:07.262 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.EditUser (JiuJitsuMaster.AdminAPI)'
+2023-10-30 01:56:07.295 -03:00 [INF] Route matched with {action = "EditUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditUser(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IUserService, Int64, JiuJitsuMaster.AdminAPI.Models.UserUpdateRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-30 01:56:09.527 -03:00 [INF] Executed DbCommand (227ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Deleted], [u].[Email], [u].[Name], [u].[Password], [u].[RefreshToken], [u].[Role], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Deleted] = CAST(0 AS bit) AND [u].[Id] = @__id_0
+2023-10-30 01:56:09.571 -03:00 [INF] Executed DbCommand (8ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Deleted], [u].[Email], [u].[Name], [u].[Password], [u].[RefreshToken], [u].[Role], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Deleted] = CAST(0 AS bit) AND [u].[Id] = @__id_0
+2023-10-30 01:56:09.635 -03:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Deleted], [u].[Email], [u].[Name], [u].[Password], [u].[RefreshToken], [u].[Role], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE 0 = 1
+2023-10-30 01:56:09.912 -03:00 [INF] Executed DbCommand (123ms) [Parameters=[@p8='?' (DbType = Int64), @p0='?' (DbType = DateTimeOffset), @p1='?' (DbType = Boolean), @p2='?' (Size = 80), @p3='?' (Size = 80), @p4='?' (Size = 100), @p5='?' (Size = 255), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTimeOffset)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [CreatedAt] = @p0, [Deleted] = @p1, [Email] = @p2, [Name] = @p3, [Password] = @p4, [RefreshToken] = @p5, [Role] = @p6, [UpdatedAt] = @p7
+OUTPUT 1
+WHERE [Id] = @p8;
+2023-10-30 01:56:09.956 -03:00 [INF] Executing OkObjectResult, writing value of type 'CommonUtility.Model.BaseModel`1[[JiuJitsuMaster.AdminAPI.Models.UserUpdateResponseModel, JiuJitsuMaster.AdminAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-30 01:56:09.969 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.EditUser (JiuJitsuMaster.AdminAPI) in 2669.1765ms
+2023-10-30 01:56:09.971 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.EditUser (JiuJitsuMaster.AdminAPI)'
+2023-10-30 01:56:09.981 -03:00 [INF] Request finished HTTP/2 PUT https://localhost:7085/User/7 application/json 24 - 200 - application/json;+charset=utf-8 3001.2579ms
+2023-10-30 01:56:32.806 -03:00 [INF] Request starting HTTP/2 PUT https://localhost:7085/User/7 application/json 21
+2023-10-30 01:56:32.813 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.EditUser (JiuJitsuMaster.AdminAPI)'
+2023-10-30 01:56:32.814 -03:00 [INF] Route matched with {action = "EditUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditUser(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IUserService, Int64, JiuJitsuMaster.AdminAPI.Models.UserUpdateRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-30 01:56:32.837 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Deleted], [u].[Email], [u].[Name], [u].[Password], [u].[RefreshToken], [u].[Role], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Deleted] = CAST(0 AS bit) AND [u].[Id] = @__id_0
+2023-10-30 01:56:32.844 -03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Deleted], [u].[Email], [u].[Name], [u].[Password], [u].[RefreshToken], [u].[Role], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Deleted] = CAST(0 AS bit) AND [u].[Id] = @__id_0
+2023-10-30 01:56:32.850 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Deleted], [u].[Email], [u].[Name], [u].[Password], [u].[RefreshToken], [u].[Role], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE 0 = 1
+2023-10-30 01:56:32.866 -03:00 [INF] Executed DbCommand (4ms) [Parameters=[@p8='?' (DbType = Int64), @p0='?' (DbType = DateTimeOffset), @p1='?' (DbType = Boolean), @p2='?' (Size = 80), @p3='?' (Size = 80), @p4='?' (Size = 100), @p5='?' (Size = 255), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTimeOffset)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [CreatedAt] = @p0, [Deleted] = @p1, [Email] = @p2, [Name] = @p3, [Password] = @p4, [RefreshToken] = @p5, [Role] = @p6, [UpdatedAt] = @p7
+OUTPUT 1
+WHERE [Id] = @p8;
+2023-10-30 01:56:32.872 -03:00 [INF] Executing OkObjectResult, writing value of type 'CommonUtility.Model.BaseModel`1[[JiuJitsuMaster.AdminAPI.Models.UserUpdateResponseModel, JiuJitsuMaster.AdminAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-30 01:56:32.875 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.EditUser (JiuJitsuMaster.AdminAPI) in 59.1805ms
+2023-10-30 01:56:32.877 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.EditUser (JiuJitsuMaster.AdminAPI)'
+2023-10-30 01:56:32.879 -03:00 [INF] Request finished HTTP/2 PUT https://localhost:7085/User/7 application/json 21 - 200 - application/json;+charset=utf-8 72.2819ms
+2023-10-30 01:56:54.734 -03:00 [INF] Request starting HTTP/2 DELETE https://localhost:7085/User/7 - -
+2023-10-30 01:56:54.743 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.ExcludeUser (JiuJitsuMaster.AdminAPI)'
+2023-10-30 01:56:54.747 -03:00 [INF] Route matched with {action = "ExcludeUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExcludeUser(JiuJitsuMaster.Core.Interfaces.Services.IUserService, Int64, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-30 01:56:54.807 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Deleted], [u].[Email], [u].[Name], [u].[Password], [u].[RefreshToken], [u].[Role], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Deleted] = CAST(0 AS bit) AND [u].[Id] = @__id_0
+2023-10-30 01:56:54.832 -03:00 [INF] Executed DbCommand (22ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Deleted], [u].[Email], [u].[Name], [u].[Password], [u].[RefreshToken], [u].[Role], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Deleted] = CAST(0 AS bit) AND [u].[Id] = @__id_0
+2023-10-30 01:56:54.917 -03:00 [INF] Executed DbCommand (65ms) [Parameters=[@p0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Users]
+OUTPUT 1
+WHERE [Id] = @p0;
+2023-10-30 01:56:54.926 -03:00 [INF] Executing OkObjectResult, writing value of type 'CommonUtility.Model.BaseModel`1[[CommonUtility.Model.MessageModel, CommonUtility, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-30 01:56:54.929 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.ExcludeUser (JiuJitsuMaster.AdminAPI) in 180.5629ms
+2023-10-30 01:56:54.930 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.ExcludeUser (JiuJitsuMaster.AdminAPI)'
+2023-10-30 01:56:54.931 -03:00 [INF] Request finished HTTP/2 DELETE https://localhost:7085/User/7 - - - 200 - application/json;+charset=utf-8 197.8010ms
+2023-10-30 01:57:45.216 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7085/User/Register application/json 100
+2023-10-30 01:57:45.221 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI)'
+2023-10-30 01:57:45.224 -03:00 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(AutoMapper.IMapper, JiuJitsuMaster.Core.Interfaces.Services.IUserService, JiuJitsuMaster.AdminAPI.Models.RegisterRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-30 01:57:45.255 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Deleted], [u].[Email], [u].[Name], [u].[Password], [u].[RefreshToken], [u].[Role], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Deleted] = CAST(0 AS bit) AND [u].[Id] = @__id_0
+2023-10-30 01:57:45.272 -03:00 [INF] Executed DbCommand (12ms) [Parameters=[@__email_0='?' (Size = 80)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Deleted], [u].[Email], [u].[Name], [u].[Password], [u].[RefreshToken], [u].[Role], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Deleted] = CAST(0 AS bit) AND [u].[Email] = @__email_0
+2023-10-30 01:57:45.452 -03:00 [INF] Executed DbCommand (11ms) [Parameters=[@p0='?' (DbType = DateTimeOffset), @p1='?' (Size = 80), @p2='?' (Size = 80), @p3='?' (Size = 100), @p4='?' (Size = 255), @p5='?' (DbType = Int32), @p6='?' (DbType = DateTimeOffset)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([CreatedAt], [Email], [Name], [Password], [RefreshToken], [Role], [UpdatedAt])
+OUTPUT INSERTED.[Id], INSERTED.[Deleted]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2023-10-30 01:57:45.481 -03:00 [INF] Usuário registrado com sucesso
+2023-10-30 01:57:45.483 -03:00 [INF] Executing CreatedResult, writing value of type 'CommonUtility.Model.BaseModel`1[[CommonUtility.Model.MessageModel, CommonUtility, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-30 01:57:45.484 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI) in 257.4781ms
+2023-10-30 01:57:45.485 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.Register (JiuJitsuMaster.AdminAPI)'
+2023-10-30 01:57:45.486 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7085/User/Register application/json 100 - 201 - application/json;+charset=utf-8 270.8142ms
+2023-10-30 14:49:46.452 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-30 14:49:49.143 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-30 14:49:49.145 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-30 14:49:49.151 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-30 14:49:49.153 -03:00 [INF] Hosting environment: Development
+2023-10-30 14:49:49.156 -03:00 [INF] Content root path: C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AdminAPI
+2023-10-30 14:49:59.766 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-30 14:50:00.903 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 1143.2214ms
+2023-10-30 14:50:01.945 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 14:50:01.975 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 29.7606ms
+2023-10-30 14:50:02.543 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-30 14:50:02.774 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 231.0158ms
+2023-10-30 14:50:04.425 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-30 14:50:05.268 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 842.4898ms
+2023-10-30 14:51:45.665 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-30 14:51:47.367 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-30 14:51:47.374 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-30 14:51:47.381 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-30 14:51:47.385 -03:00 [INF] Hosting environment: Development
+2023-10-30 14:51:47.388 -03:00 [INF] Content root path: C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AdminAPI
+2023-10-30 14:51:50.722 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-30 14:51:52.550 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 1832.5216ms
+2023-10-30 14:51:52.790 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-30 14:51:52.790 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 14:51:52.814 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 23.0579ms
+2023-10-30 14:51:52.851 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 60.5292ms
+2023-10-30 14:51:53.219 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-30 14:51:53.564 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 344.8855ms
+2023-10-30 14:52:13.311 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/User?page=1&limit=10 - -
+2023-10-30 14:52:14.047 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.ListPageAsync (JiuJitsuMaster.AdminAPI)'
+2023-10-30 14:52:14.160 -03:00 [INF] Route matched with {action = "ListPage", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ListPageAsync(JiuJitsuMaster.Core.Interfaces.Services.IUserService, AutoMapper.IMapper, Int32, Int32, System.String, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-30 14:52:19.744 -03:00 [INF] Executed DbCommand (182ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Users] AS [u]
+WHERE [u].[Deleted] = CAST(0 AS bit)
+2023-10-30 14:52:19.842 -03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-10-30 14:52:19.844 -03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-10-30 14:52:20.045 -03:00 [INF] Executed DbCommand (141ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[CreatedAt], [u].[Deleted], [u].[Email], [u].[Name], [u].[Password], [u].[RefreshToken], [u].[Role], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Deleted] = CAST(0 AS bit)
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2023-10-30 14:52:20.124 -03:00 [INF] Executing OkObjectResult, writing value of type 'CommonUtility.Model.BaseModel`1[[CommonUtility.Model.ListBaseModel`1[[System.Collections.Generic.List`1[[JiuJitsuMaster.AdminAPI.Models.UserResponseModel, JiuJitsuMaster.AdminAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CommonUtility, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-30 14:52:20.197 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.ListPageAsync (JiuJitsuMaster.AdminAPI) in 6022.6259ms
+2023-10-30 14:52:20.201 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.ListPageAsync (JiuJitsuMaster.AdminAPI)'
+2023-10-30 14:52:20.223 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/User?page=1&limit=10 - - - 200 - application/json;+charset=utf-8 6911.5250ms
+2023-10-30 14:52:31.709 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/User?page=1&limit=10&name=A - -
+2023-10-30 14:52:31.792 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.ListPageAsync (JiuJitsuMaster.AdminAPI)'
+2023-10-30 14:52:31.795 -03:00 [INF] Route matched with {action = "ListPage", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ListPageAsync(JiuJitsuMaster.Core.Interfaces.Services.IUserService, AutoMapper.IMapper, Int32, Int32, System.String, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-30 14:52:32.034 -03:00 [INF] Executed DbCommand (94ms) [Parameters=[@__name_1='?' (Size = 80)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Users] AS [u]
+WHERE [u].[Deleted] = CAST(0 AS bit) AND ([u].[Name] LIKE @__name_1)
+2023-10-30 14:52:32.043 -03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-10-30 14:52:32.044 -03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-10-30 14:52:32.061 -03:00 [INF] Executed DbCommand (10ms) [Parameters=[@__name_1='?' (Size = 80), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[CreatedAt], [u].[Deleted], [u].[Email], [u].[Name], [u].[Password], [u].[RefreshToken], [u].[Role], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Deleted] = CAST(0 AS bit) AND ([u].[Name] LIKE @__name_1)
+ORDER BY (SELECT 1)
+OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+2023-10-30 14:52:32.069 -03:00 [INF] Executing OkObjectResult, writing value of type 'CommonUtility.Model.BaseModel`1[[CommonUtility.Model.ListBaseModel`1[[System.Collections.Generic.List`1[[JiuJitsuMaster.AdminAPI.Models.UserResponseModel, JiuJitsuMaster.AdminAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CommonUtility, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-30 14:52:32.073 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.ListPageAsync (JiuJitsuMaster.AdminAPI) in 274.6329ms
+2023-10-30 14:52:32.076 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.ListPageAsync (JiuJitsuMaster.AdminAPI)'
+2023-10-30 14:52:32.082 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/User?page=1&limit=10&name=A - - - 200 - application/json;+charset=utf-8 371.8211ms
+2023-10-30 14:52:42.136 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/User?page=1&limit=10&name=Admin - -
+2023-10-30 14:52:42.145 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.ListPageAsync (JiuJitsuMaster.AdminAPI)'
+2023-10-30 14:52:42.148 -03:00 [INF] Route matched with {action = "ListPage", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ListPageAsync(JiuJitsuMaster.Core.Interfaces.Services.IUserService, AutoMapper.IMapper, Int32, Int32, System.String, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-30 14:52:42.190 -03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__name_1='?' (Size = 80)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Users] AS [u]
+WHERE [u].[Deleted] = CAST(0 AS bit) AND ([u].[Name] LIKE @__name_1)
+2023-10-30 14:52:42.200 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__name_1='?' (Size = 80), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[CreatedAt], [u].[Deleted], [u].[Email], [u].[Name], [u].[Password], [u].[RefreshToken], [u].[Role], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Deleted] = CAST(0 AS bit) AND ([u].[Name] LIKE @__name_1)
+ORDER BY (SELECT 1)
+OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+2023-10-30 14:52:42.204 -03:00 [INF] Executing OkObjectResult, writing value of type 'CommonUtility.Model.BaseModel`1[[CommonUtility.Model.ListBaseModel`1[[System.Collections.Generic.List`1[[JiuJitsuMaster.AdminAPI.Models.UserResponseModel, JiuJitsuMaster.AdminAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CommonUtility, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-30 14:52:42.207 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.ListPageAsync (JiuJitsuMaster.AdminAPI) in 55.6472ms
+2023-10-30 14:52:42.209 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.ListPageAsync (JiuJitsuMaster.AdminAPI)'
+2023-10-30 14:52:42.210 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/User?page=1&limit=10&name=Admin - - - 200 - application/json;+charset=utf-8 74.2037ms
+2023-10-30 14:53:30.124 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-30 14:53:31.207 -03:00 [INF] Now listening on: https://localhost:7085
+2023-10-30 14:53:31.209 -03:00 [INF] Now listening on: http://localhost:5251
+2023-10-30 14:53:31.212 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-30 14:53:31.213 -03:00 [INF] Hosting environment: Development
+2023-10-30 14:53:31.215 -03:00 [INF] Content root path: C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AdminAPI
+2023-10-30 14:53:34.468 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/index.html - -
+2023-10-30 14:53:35.199 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/index.html - - - 200 - text/html;charset=utf-8 735.5578ms
+2023-10-30 14:53:35.240 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 14:53:35.259 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_framework/aspnetcore-browser-refresh.js - - - 200 12378 application/javascript;+charset=utf-8 18.9840ms
+2023-10-30 14:53:35.342 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/_vs/browserLink - -
+2023-10-30 14:53:35.493 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 151.6344ms
+2023-10-30 14:53:35.640 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - -
+2023-10-30 14:53:35.974 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 334.0143ms
+2023-10-30 14:55:23.436 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/User?page=10 - -
+2023-10-30 14:55:24.092 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.ListPageAsync (JiuJitsuMaster.AdminAPI)'
+2023-10-30 14:55:24.240 -03:00 [INF] Route matched with {action = "ListPage", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ListPageAsync(JiuJitsuMaster.Core.Interfaces.Services.IUserService, AutoMapper.IMapper, Int32, Int32, System.String, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-30 14:55:27.620 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'CommonUtility.Model.BaseModel`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-30 14:55:27.983 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.ListPageAsync (JiuJitsuMaster.AdminAPI) in 3723.4977ms
+2023-10-30 14:55:28.012 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.ListPageAsync (JiuJitsuMaster.AdminAPI)'
+2023-10-30 14:55:28.035 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/User?page=10 - - - 400 - application/json;+charset=utf-8 4598.3507ms
+2023-10-30 14:55:44.344 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7085/User?page=1&limit=100&name=teste - -
+2023-10-30 14:55:44.366 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.ListPageAsync (JiuJitsuMaster.AdminAPI)'
+2023-10-30 14:55:44.431 -03:00 [INF] Route matched with {action = "ListPage", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ListPageAsync(JiuJitsuMaster.Core.Interfaces.Services.IUserService, AutoMapper.IMapper, Int32, Int32, System.String, System.Threading.CancellationToken) on controller JiuJitsuMaster.AdminAPI.Controllers.UserController (JiuJitsuMaster.AdminAPI).
+2023-10-30 14:55:49.896 -03:00 [INF] Executed DbCommand (267ms) [Parameters=[@__name_1='?' (Size = 80)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Users] AS [u]
+WHERE [u].[Deleted] = CAST(0 AS bit) AND ([u].[Name] LIKE @__name_1)
+2023-10-30 14:55:49.997 -03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-10-30 14:55:50.000 -03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-10-30 14:55:50.076 -03:00 [INF] Executed DbCommand (17ms) [Parameters=[@__name_1='?' (Size = 80), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[CreatedAt], [u].[Deleted], [u].[Email], [u].[Name], [u].[Password], [u].[RefreshToken], [u].[Role], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Deleted] = CAST(0 AS bit) AND ([u].[Name] LIKE @__name_1)
+ORDER BY (SELECT 1)
+OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+2023-10-30 14:55:50.112 -03:00 [INF] Executing OkObjectResult, writing value of type 'CommonUtility.Model.BaseModel`1[[CommonUtility.Model.ListBaseModel`1[[System.Collections.Generic.List`1[[JiuJitsuMaster.AdminAPI.Models.UserResponseModel, JiuJitsuMaster.AdminAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CommonUtility, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-30 14:55:50.159 -03:00 [INF] Executed action JiuJitsuMaster.AdminAPI.Controllers.UserController.ListPageAsync (JiuJitsuMaster.AdminAPI) in 5718.1383ms
+2023-10-30 14:55:50.164 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AdminAPI.Controllers.UserController.ListPageAsync (JiuJitsuMaster.AdminAPI)'
+2023-10-30 14:55:50.185 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7085/User?page=1&limit=100&name=teste - - - 200 - application/json;+charset=utf-8 5842.8083ms

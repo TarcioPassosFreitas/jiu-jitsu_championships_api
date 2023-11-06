@@ -1,0 +1,141 @@
+2023-10-29 17:03:36.051 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-29 17:03:36.626 -03:00 [INF] Now listening on: https://localhost:7021
+2023-10-29 17:03:36.627 -03:00 [INF] Now listening on: http://localhost:5041
+2023-10-29 17:03:36.630 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-29 17:03:36.631 -03:00 [INF] Hosting environment: Development
+2023-10-29 17:03:36.631 -03:00 [INF] Content root path: C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AuthAPI
+2023-10-29 17:03:37.921 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7021/swagger - -
+2023-10-29 17:03:38.041 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7021/swagger - - - 301 0 - 123.2437ms
+2023-10-29 17:03:38.100 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7021/swagger/index.html - -
+2023-10-29 17:03:38.473 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7021/swagger/index.html - - - 200 - text/html;charset=utf-8 373.2975ms
+2023-10-29 17:03:38.499 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7021/swagger/swagger-ui.css - -
+2023-10-29 17:03:38.503 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7021/swagger/swagger-ui-bundle.js - -
+2023-10-29 17:03:38.508 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7021/swagger/swagger-ui-standalone-preset.js - -
+2023-10-29 17:03:38.514 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7021/_framework/aspnetcore-browser-refresh.js - -
+2023-10-29 17:03:38.550 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7021/_framework/aspnetcore-browser-refresh.js - - - 200 12376 application/javascript;+charset=utf-8 36.1339ms
+2023-10-29 17:03:38.557 -03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-10-29 17:03:38.557 -03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-10-29 17:03:38.559 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7021/swagger/swagger-ui.css - - - 200 144929 text/css 60.0684ms
+2023-10-29 17:03:38.561 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7021/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 52.4313ms
+2023-10-29 17:03:38.580 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7021/_vs/browserLink - -
+2023-10-29 17:03:38.589 -03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-10-29 17:03:38.590 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7021/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 86.6789ms
+2023-10-29 17:03:38.615 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7021/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.1854ms
+2023-10-29 17:03:38.790 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7021/swagger/v1/swagger.json - -
+2023-10-29 17:03:38.823 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7021/swagger/favicon-32x32.png - -
+2023-10-29 17:03:38.824 -03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-29 17:03:38.826 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7021/swagger/favicon-32x32.png - - - 200 628 image/png 2.8122ms
+2023-10-29 17:03:38.934 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7021/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 144.0228ms
+2023-10-29 19:58:41.207 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-29 19:58:41.804 -03:00 [INF] Now listening on: https://localhost:7021
+2023-10-29 19:58:41.807 -03:00 [INF] Now listening on: http://localhost:5041
+2023-10-29 19:58:41.812 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-29 19:58:41.814 -03:00 [INF] Hosting environment: Development
+2023-10-29 19:58:41.815 -03:00 [INF] Content root path: C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AuthAPI
+2023-10-29 19:58:43.600 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7021/swagger/index.html - -
+2023-10-29 19:58:44.363 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7021/swagger/index.html - - - 200 - text/html;charset=utf-8 751.8571ms
+2023-10-29 19:58:44.364 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7021/_framework/aspnetcore-browser-refresh.js - -
+2023-10-29 19:58:44.430 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7021/_framework/aspnetcore-browser-refresh.js - - - 200 12376 application/javascript;+charset=utf-8 66.3478ms
+2023-10-29 19:58:44.450 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7021/_vs/browserLink - -
+2023-10-29 19:58:44.560 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7021/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 111.6280ms
+2023-10-29 19:58:45.074 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7021/swagger/v1/swagger.json - -
+2023-10-29 19:58:45.583 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7021/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 509.4245ms
+2023-10-29 23:27:21.919 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-29 23:27:22.299 -03:00 [INF] Now listening on: https://localhost:7021
+2023-10-29 23:27:22.301 -03:00 [INF] Now listening on: http://localhost:5041
+2023-10-29 23:27:22.303 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-29 23:27:22.304 -03:00 [INF] Hosting environment: Development
+2023-10-29 23:27:22.305 -03:00 [INF] Content root path: C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AuthAPI
+2023-10-29 23:27:24.464 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7021/swagger/index.html - -
+2023-10-29 23:27:24.984 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7021/swagger/index.html - - - 200 - text/html;charset=utf-8 516.6953ms
+2023-10-29 23:27:25.025 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7021/_framework/aspnetcore-browser-refresh.js - -
+2023-10-29 23:27:25.029 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7021/_framework/aspnetcore-browser-refresh.js - - - 200 12376 application/javascript;+charset=utf-8 4.4222ms
+2023-10-29 23:27:25.137 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7021/_vs/browserLink - -
+2023-10-29 23:27:25.210 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7021/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 72.1324ms
+2023-10-29 23:27:25.309 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7021/swagger/v1/swagger.json - -
+2023-10-29 23:27:25.502 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7021/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 193.1459ms
+2023-10-29 23:27:43.477 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7021/User/login application/json 63
+2023-10-29 23:27:44.811 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AuthAPI.Controllers.UserController.Login (JiuJitsuMaster.AuthAPI)'
+2023-10-29 23:27:44.840 -03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(JiuJitsuMaster.Core.Interfaces.Services.ITokenService, JiuJitsuMaster.Core.Interfaces.Services.IUserService, JiuJitsuMaster.AuthAPI.Models.LoginRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AuthAPI.Controllers.UserController (JiuJitsuMaster.AuthAPI).
+2023-10-29 23:27:45.331 -03:00 [INF] Método de login chamado para o e-mail admin@kbrtec.com.br
+2023-10-29 23:28:16.402 -03:00 [ERR] Uma exceção ocorreu durante a tentativa de login para o e-mail admin@kbrtec.com.br
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at JiuJitsuMaster.Infrastructure.Repositories.UserRepository.GetByEmailAsync(String email, CancellationToken cancellationToken) in C:\Trabalhos\Projeto API Jiu Jitsu\Infrastructure\JiuJitsuMaster.Infrastructure\Repositories\UserRepository.cs:line 36
+   at JiuJitsuMaster.Core.Services.UserService.LoginAsync(String email, String password, CancellationToken cancellationToken) in C:\Trabalhos\Projeto API Jiu Jitsu\Core\JiuJitsuMaster.Core\Services\UserService.cs:line 65
+   at JiuJitsuMaster.AuthAPI.Controllers.UserController.Login(ITokenService tokenService, IUserService userService, LoginRequestModel requestModel, CancellationToken cancellationToken) in C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AuthAPI\Controllers\UserController.cs:line 34
+2023-10-29 23:28:16.470 -03:00 [INF] Executing ObjectResult, writing value of type 'CommonUtility.Model.BaseModel`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-29 23:28:16.483 -03:00 [INF] Executed action JiuJitsuMaster.AuthAPI.Controllers.UserController.Login (JiuJitsuMaster.AuthAPI) in 31633.024ms
+2023-10-29 23:28:16.487 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AuthAPI.Controllers.UserController.Login (JiuJitsuMaster.AuthAPI)'
+2023-10-29 23:28:16.490 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7021/User/login application/json 63 - 500 - application/json;+charset=utf-8 33013.0049ms
+2023-10-29 23:30:02.015 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-29 23:30:02.419 -03:00 [INF] Now listening on: https://localhost:7021
+2023-10-29 23:30:02.421 -03:00 [INF] Now listening on: http://localhost:5041
+2023-10-29 23:30:02.423 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-29 23:30:02.423 -03:00 [INF] Hosting environment: Development
+2023-10-29 23:30:02.424 -03:00 [INF] Content root path: C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AuthAPI
+2023-10-29 23:30:06.277 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7021/swagger/index.html - -
+2023-10-29 23:30:06.849 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7021/swagger/index.html - - - 200 - text/html;charset=utf-8 569.5872ms
+2023-10-29 23:30:06.964 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7021/_vs/browserLink - -
+2023-10-29 23:30:06.964 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7021/_framework/aspnetcore-browser-refresh.js - -
+2023-10-29 23:30:06.989 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7021/_framework/aspnetcore-browser-refresh.js - - - 200 12376 application/javascript;+charset=utf-8 24.1559ms
+2023-10-29 23:30:07.035 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7021/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 70.9411ms
+2023-10-29 23:30:08.142 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7021/swagger/v1/swagger.json - -
+2023-10-29 23:30:08.433 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7021/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 291.2791ms
+2023-10-29 23:30:47.568 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7021/User/login application/json 63
+2023-10-29 23:30:47.680 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AuthAPI.Controllers.UserController.Login (JiuJitsuMaster.AuthAPI)'
+2023-10-29 23:30:47.711 -03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(JiuJitsuMaster.Core.Interfaces.Services.ITokenService, JiuJitsuMaster.Core.Interfaces.Services.IUserService, JiuJitsuMaster.AuthAPI.Models.LoginRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AuthAPI.Controllers.UserController (JiuJitsuMaster.AuthAPI).
+2023-10-29 23:30:47.929 -03:00 [INF] Método de login chamado para o e-mail admin@kbrtec.com.br
+2023-10-29 23:31:36.358 -03:00 [ERR] Uma exceção ocorreu durante a tentativa de login para o e-mail admin@kbrtec.com.br
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at JiuJitsuMaster.Infrastructure.Repositories.UserRepository.GetByEmailAsync(String email, CancellationToken cancellationToken) in C:\Trabalhos\Projeto API Jiu Jitsu\Infrastructure\JiuJitsuMaster.Infrastructure\Repositories\UserRepository.cs:line 36
+   at JiuJitsuMaster.Core.Services.UserService.LoginAsync(String email, String password, CancellationToken cancellationToken) in C:\Trabalhos\Projeto API Jiu Jitsu\Core\JiuJitsuMaster.Core\Services\UserService.cs:line 65
+   at JiuJitsuMaster.AuthAPI.Controllers.UserController.Login(ITokenService tokenService, IUserService userService, LoginRequestModel requestModel, CancellationToken cancellationToken) in C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AuthAPI\Controllers\UserController.cs:line 34
+2023-10-29 23:31:36.411 -03:00 [INF] Executing ObjectResult, writing value of type 'CommonUtility.Model.BaseModel`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-29 23:31:36.479 -03:00 [INF] Executed action JiuJitsuMaster.AuthAPI.Controllers.UserController.Login (JiuJitsuMaster.AuthAPI) in 48705.3786ms
+2023-10-29 23:31:36.483 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AuthAPI.Controllers.UserController.Login (JiuJitsuMaster.AuthAPI)'
+2023-10-29 23:31:36.486 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7021/User/login application/json 63 - 500 - application/json;+charset=utf-8 48918.3213ms
+2023-10-29 23:31:38.867 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7021/User/login application/json 63
+2023-10-29 23:31:38.872 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AuthAPI.Controllers.UserController.Login (JiuJitsuMaster.AuthAPI)'
+2023-10-29 23:31:38.891 -03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(JiuJitsuMaster.Core.Interfaces.Services.ITokenService, JiuJitsuMaster.Core.Interfaces.Services.IUserService, JiuJitsuMaster.AuthAPI.Models.LoginRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AuthAPI.Controllers.UserController (JiuJitsuMaster.AuthAPI).
+2023-10-29 23:31:38.923 -03:00 [INF] Método de login chamado para o e-mail admin@kbrtec.com.br
+2023-10-29 23:49:06.976 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-29 23:49:07.285 -03:00 [INF] Now listening on: https://localhost:7021
+2023-10-29 23:49:07.287 -03:00 [INF] Now listening on: http://localhost:5041
+2023-10-29 23:49:07.290 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-29 23:49:07.291 -03:00 [INF] Hosting environment: Development
+2023-10-29 23:49:07.291 -03:00 [INF] Content root path: C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AuthAPI
+2023-10-29 23:49:12.176 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7021/swagger/index.html - -
+2023-10-29 23:49:13.406 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7021/swagger/index.html - - - 200 - text/html;charset=utf-8 1231.8093ms
+2023-10-29 23:49:13.485 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7021/_framework/aspnetcore-browser-refresh.js - -
+2023-10-29 23:49:13.705 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7021/_framework/aspnetcore-browser-refresh.js - - - 200 12376 application/javascript;+charset=utf-8 220.3767ms
+2023-10-29 23:49:14.306 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7021/_vs/browserLink - -
+2023-10-29 23:49:14.443 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7021/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 137.5485ms
+2023-10-29 23:49:14.761 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7021/swagger/v1/swagger.json - -
+2023-10-29 23:49:14.904 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7021/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 143.6371ms
+2023-10-29 23:49:39.635 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7021/User/login application/json 63
+2023-10-29 23:49:39.722 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AuthAPI.Controllers.UserController.Login (JiuJitsuMaster.AuthAPI)'
+2023-10-29 23:49:39.750 -03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(JiuJitsuMaster.Core.Interfaces.Services.ITokenService, JiuJitsuMaster.Core.Interfaces.Services.IUserService, JiuJitsuMaster.AuthAPI.Models.LoginRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AuthAPI.Controllers.UserController (JiuJitsuMaster.AuthAPI).
+2023-10-29 23:49:39.976 -03:00 [INF] Método de login chamado para o e-mail admin@kbrtec.com.br
+2023-10-29 23:50:02.556 -03:00 [INF] Executed DbCommand (233ms) [Parameters=[@__email_0='?' (Size = 80)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Deleted], [u].[Email], [u].[Name], [u].[Password], [u].[RefreshToken], [u].[Role], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Deleted] = CAST(0 AS bit) AND [u].[Email] = @__email_0
+2023-10-29 23:50:23.414 -03:00 [ERR] Uma exceção ocorreu durante a tentativa de login para o e-mail admin@kbrtec.com.br
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at Microsoft.AspNetCore.Identity.PasswordHasher`1.VerifyHashedPassword(TUser user, String hashedPassword, String providedPassword)
+   at JiuJitsuMaster.Core.Services.UserService.LoginAsync(String email, String password, CancellationToken cancellationToken) in C:\Trabalhos\Projeto API Jiu Jitsu\Core\JiuJitsuMaster.Core\Services\UserService.cs:line 71
+   at JiuJitsuMaster.AuthAPI.Controllers.UserController.Login(ITokenService tokenService, IUserService userService, LoginRequestModel requestModel, CancellationToken cancellationToken) in C:\Trabalhos\Projeto API Jiu Jitsu\Apis\JiuJitsuMaster.AuthAPI\Controllers\UserController.cs:line 34
+2023-10-29 23:50:23.471 -03:00 [INF] Executing ObjectResult, writing value of type 'CommonUtility.Model.BaseModel`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-29 23:50:23.485 -03:00 [INF] Executed action JiuJitsuMaster.AuthAPI.Controllers.UserController.Login (JiuJitsuMaster.AuthAPI) in 43729.7555ms
+2023-10-29 23:50:23.488 -03:00 [INF] Executed endpoint 'JiuJitsuMaster.AuthAPI.Controllers.UserController.Login (JiuJitsuMaster.AuthAPI)'
+2023-10-29 23:50:23.501 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7021/User/login application/json 63 - 500 - application/json;+charset=utf-8 43865.1082ms
+2023-10-29 23:50:29.675 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7021/User/login application/json 63
+2023-10-29 23:50:29.684 -03:00 [INF] Executing endpoint 'JiuJitsuMaster.AuthAPI.Controllers.UserController.Login (JiuJitsuMaster.AuthAPI)'
+2023-10-29 23:50:29.685 -03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(JiuJitsuMaster.Core.Interfaces.Services.ITokenService, JiuJitsuMaster.Core.Interfaces.Services.IUserService, JiuJitsuMaster.AuthAPI.Models.LoginRequestModel, System.Threading.CancellationToken) on controller JiuJitsuMaster.AuthAPI.Controllers.UserController (JiuJitsuMaster.AuthAPI).
+2023-10-29 23:50:29.690 -03:00 [INF] Método de login chamado para o e-mail admin@kbrtec.com.br
+2023-10-29 23:50:34.492 -03:00 [INF] Executed DbCommand (26ms) [Parameters=[@__email_0='?' (Size = 80)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Deleted], [u].[Email], [u].[Name], [u].[Password], [u].[RefreshToken], [u].[Role], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Deleted] = CAST(0 AS bit) AND [u].[Email] = @__email_0

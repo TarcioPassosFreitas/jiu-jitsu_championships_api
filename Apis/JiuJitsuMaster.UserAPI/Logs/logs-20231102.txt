@@ -1,0 +1,50 @@
+2023-11-02 14:11:48.144 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-02 14:11:48.521 -03:00 [INF] Now listening on: https://localhost:7181
+2023-11-02 14:11:48.522 -03:00 [INF] Now listening on: http://localhost:5088
+2023-11-02 14:11:48.525 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-02 14:11:48.526 -03:00 [INF] Hosting environment: Development
+2023-11-02 14:11:48.527 -03:00 [INF] Content root path: C:\Trabalhos\jiu-jitsu_championships_api\Apis\JiuJitsuMaster.UserAPI
+2023-11-02 14:11:51.460 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7181/swagger - -
+2023-11-02 14:11:51.727 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7181/swagger - - - 301 0 - 268.5861ms
+2023-11-02 14:11:51.751 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7181/swagger/index.html - -
+2023-11-02 14:11:53.683 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7181/swagger/index.html - - - 200 - text/html;charset=utf-8 1931.6276ms
+2023-11-02 14:11:54.120 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7181/swagger/swagger-ui-bundle.js - -
+2023-11-02 14:11:54.146 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7181/_vs/browserLink - -
+2023-11-02 14:11:54.132 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7181/_framework/aspnetcore-browser-refresh.js - -
+2023-11-02 14:11:54.120 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7181/swagger/swagger-ui.css - -
+2023-11-02 14:11:54.127 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7181/swagger/swagger-ui-standalone-preset.js - -
+2023-11-02 14:11:54.605 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7181/_framework/aspnetcore-browser-refresh.js - - - 200 12376 application/javascript;+charset=utf-8 473.0718ms
+2023-11-02 14:11:54.662 -03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-11-02 14:11:54.662 -03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-11-02 14:11:54.668 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7181/swagger/swagger-ui.css - - - 200 144929 text/css 547.5619ms
+2023-11-02 14:11:54.672 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7181/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 545.4165ms
+2023-11-02 14:11:54.717 -03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-11-02 14:11:54.723 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7181/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 576.2254ms
+2023-11-02 14:11:54.728 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7181/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 607.7889ms
+2023-11-02 14:11:54.984 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7181/swagger/v1/swagger.json - -
+2023-11-02 14:11:55.205 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7181/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 220.9085ms
+2023-11-02 14:13:00.868 -03:00 [INF] User profile is available. Using 'C:\Users\tpass\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-02 14:13:01.168 -03:00 [INF] Now listening on: https://localhost:7181
+2023-11-02 14:13:01.169 -03:00 [INF] Now listening on: http://localhost:5088
+2023-11-02 14:13:01.171 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-02 14:13:01.172 -03:00 [INF] Hosting environment: Development
+2023-11-02 14:13:01.172 -03:00 [INF] Content root path: C:\Trabalhos\jiu-jitsu_championships_api\Apis\JiuJitsuMaster.UserAPI
+2023-11-02 14:13:02.007 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7181/swagger - -
+2023-11-02 14:13:02.101 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7181/swagger - - - 301 0 - 96.6668ms
+2023-11-02 14:13:02.114 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7181/swagger/index.html - -
+2023-11-02 14:13:02.352 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7181/swagger/index.html - - - 200 - text/html;charset=utf-8 238.4401ms
+2023-11-02 14:13:02.362 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7181/swagger/swagger-ui.css - -
+2023-11-02 14:13:02.363 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7181/_framework/aspnetcore-browser-refresh.js - -
+2023-11-02 14:13:02.362 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7181/swagger/swagger-ui-standalone-preset.js - -
+2023-11-02 14:13:02.362 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7181/swagger/swagger-ui-bundle.js - -
+2023-11-02 14:13:02.388 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7181/_framework/aspnetcore-browser-refresh.js - - - 200 12376 application/javascript;+charset=utf-8 24.8394ms
+2023-11-02 14:13:02.438 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7181/_vs/browserLink - -
+2023-11-02 14:13:02.489 -03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-11-02 14:13:02.489 -03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-11-02 14:13:02.491 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7181/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 128.3823ms
+2023-11-02 14:13:02.492 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7181/swagger/swagger-ui.css - - - 200 144929 text/css 130.1771ms
+2023-11-02 14:13:02.505 -03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-11-02 14:13:02.509 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7181/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 147.0030ms
+2023-11-02 14:13:02.511 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7181/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 77.0221ms
+2023-11-02 14:13:02.697 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7181/swagger/v1/swagger.json - -
+2023-11-02 14:13:02.861 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7181/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 163.8574ms
